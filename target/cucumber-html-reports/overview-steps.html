@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>cucumber-jvm-example</td>
+              <td>1</td>
+            <td>21 Oct 2019, 11:31</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">Hooks.setUp()</td>
+              <td>6</td>
+              <td class="duration" data-value="4989049683">4.989</td>
+              <td class="duration" data-value="4989049683">9.361</td>
+              <td class="duration" data-value="29934298100">29.934</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.tearDown(Scenario)</td>
+              <td>6</td>
+              <td class="duration" data-value="1003745400">1.003</td>
+              <td class="duration" data-value="1003745400">1.540</td>
+              <td class="duration" data-value="6022472400">6.022</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">LoginPageStepDefinitions.user_on_the_login_page()</td>
+              <td>6</td>
+              <td class="duration" data-value="8029841666">8.029</td>
+              <td class="duration" data-value="8029841666">12.658</td>
+              <td class="duration" data-value="48179050000">48.179</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">MainPageStepDefinitions.header_menu_names_should_be_displayed(String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="404829600">0.404</td>
+              <td class="duration" data-value="404829600">0.404</td>
+              <td class="duration" data-value="404829600">0.404</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">MainPageStepDefinitions.main_logo_must_be(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="344479900">0.344</td>
+              <td class="duration" data-value="344479900">0.344</td>
+              <td class="duration" data-value="344479900">0.344</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">MainPageStepDefinitions.main_menu_names_should_be_displayed(String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="509960800">0.509</td>
+              <td class="duration" data-value="509960800">0.509</td>
+              <td class="duration" data-value="509960800">0.509</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_mouse_hover_over_on_About_Nau_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="216852100">0.216</td>
+              <td class="duration" data-value="216852100">0.216</td>
+              <td class="duration" data-value="216852100">0.216</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_mouse_hover_over_on_Academics_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="205044000">0.205</td>
+              <td class="duration" data-value="205044000">0.205</td>
+              <td class="duration" data-value="205044000">0.205</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_mouse_hover_over_on_Admission_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="473310100">0.473</td>
+              <td class="duration" data-value="473310100">0.473</td>
+              <td class="duration" data-value="473310100">0.473</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_mouse_hover_over_on_Campus_Life_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="221467000">0.221</td>
+              <td class="duration" data-value="221467000">0.221</td>
+              <td class="duration" data-value="221467000">0.221</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_mouse_hover_over_on_Faculty_Staff_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="190784800">0.190</td>
+              <td class="duration" data-value="190784800">0.190</td>
+              <td class="duration" data-value="190784800">0.190</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_should_see_the_list_of_About_Nau_sub_menu(String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="722724800">0.722</td>
+              <td class="duration" data-value="722724800">0.722</td>
+              <td class="duration" data-value="722724800">0.722</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_should_see_the_list_of_Academics_sub_menu(String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="682037700">0.682</td>
+              <td class="duration" data-value="682037700">0.682</td>
+              <td class="duration" data-value="682037700">0.682</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_should_see_the_list_of_Campus_Life_sub_menu(String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="708594700">0.708</td>
+              <td class="duration" data-value="708594700">0.708</td>
+              <td class="duration" data-value="708594700">0.708</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_should_see_the_list_of_Faculty_Staff_sub_menu(String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="759797800">0.759</td>
+              <td class="duration" data-value="759797800">0.759</td>
+              <td class="duration" data-value="759797800">0.759</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">SubMenuListStepDefinitions.user_should_see_the_list_of_sub_menu(String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="1568821900">1.568</td>
+              <td class="duration" data-value="1568821900">1.568</td>
+              <td class="duration" data-value="1568821900">1.568</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>16</td>
+            <td>31</td>
+            <td class="duration">2.940</td>
+            <td class="duration">48.179</td>
+            <td class="duration">1:31.144</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
