@@ -12,7 +12,7 @@ Feature: Main page modulus
     And main menu names should be displayed:
     |Admissions     |
     |Academics      |
-    |Favulty & Staff|
+    |Faculty & Staff|
     |Campus Life    |
     |Students       |
     |About NAU      |

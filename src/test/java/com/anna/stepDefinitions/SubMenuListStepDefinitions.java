@@ -18,6 +18,7 @@ public class SubMenuListStepDefinitions {
 
     @When("user mouse hover over on Admission button")
     public void user_mouse_hover_over_on_Admission_button() {
+        log.info("Mouse hover over on to the Admission button");
         Actions actions = new Actions(Driver.getDriver());
         MainPage mainPage = new MainPage();
         actions.moveToElement(mainPage.admissions).build().perform();
@@ -34,15 +35,16 @@ public class SubMenuListStepDefinitions {
         allMenu.addAll(undergraduate);
         allMenu.addAll(langSchool);
 
-        log.info(menu);
+        log.info("Expected sub menu list: ----> "+menu);
         for (WebElement el:allMenu){
-            log.info(el);
+            log.info(el.getText());
            Assert.assertTrue(menu.contains(el.getText()));
         }
     }
 
     @When("user mouse hover over on Academics button")
     public void user_mouse_hover_over_on_Academics_button() {
+        log.info("Mouse hover over on to the Academics button");
         Actions actions = new Actions(Driver.getDriver());
         MainPage mainPage = new MainPage();
         actions.moveToElement(mainPage.academics).build().perform();
@@ -53,7 +55,7 @@ public class SubMenuListStepDefinitions {
         AcademicsPage academicsPage = new AcademicsPage();
         List<WebElement> academicsMenuList = academicsPage.academicsMenuList;
 
-        log.info(menu);
+        log.info("Expected sub menu list: ----> "+menu);
         for (WebElement el:academicsMenuList){
             log.info(el.getText());
             Assert.assertTrue(menu.contains(el.getText()));
@@ -61,6 +63,7 @@ public class SubMenuListStepDefinitions {
     }
     @When("user mouse hover over on Faculty&Staff button")
     public void user_mouse_hover_over_on_Faculty_Staff_button() {
+        log.info("Mouse hover over on to the Faculty&Staff button");
         Actions actions = new Actions(Driver.getDriver());
         MainPage mainPage = new MainPage();
         actions.moveToElement(mainPage.facultyAndStaff).build().perform();
@@ -74,7 +77,7 @@ public class SubMenuListStepDefinitions {
         facultyMenuList.addAll(facultyAndStaff.faciltyMenu2);
         facultyMenuList.addAll(facultyAndStaff.faciltyMenu3);
 
-        log.info(menu);
+        log.info("Expected sub menu list: ----> "+menu);
         System.out.println(menu);
         List<String> faculty = new ArrayList <>();
         for (WebElement el:facultyMenuList){
@@ -88,6 +91,7 @@ public class SubMenuListStepDefinitions {
 
     @When("user mouse hover over on Campus Life button")
     public void user_mouse_hover_over_on_Campus_Life_button() {
+        log.info("Mouse hover over on to the Campus Life button");
         Actions actions = new Actions(Driver.getDriver());
         MainPage mainPage = new MainPage();
         actions.moveToElement(mainPage.campusLife).build().perform();
@@ -101,14 +105,18 @@ public class SubMenuListStepDefinitions {
         campusLifeMenu.addAll(campusLifePage.campusLifeSubMenu2);
         campusLifeMenu.addAll(campusLifePage.campusLifeSubMenu3);
         List<String> campusLife = new ArrayList <>();
+
+        log.info("Expected sub menu list: ----> "+menu);
+
         for (WebElement el:campusLifeMenu ){
             campusLife.add(el.getText());
-            System.out.println(el.getText());
+            log.info(el.getText());
         }
         Assert.assertTrue(campusLife.containsAll(menu));
     }
     @When("user mouse hover over on About Nau button")
     public void user_mouse_hover_over_on_About_Nau_button() {
+        log.info("Mouse hover over on to the About button");
         Actions actions = new Actions(Driver.getDriver());
         MainPage mainPage = new MainPage();
         actions.moveToElement(mainPage.aboutNau).build().perform();
@@ -121,10 +129,11 @@ public class SubMenuListStepDefinitions {
         aboutNauMenu.addAll(nauPage.aboutNauSubMenu1);
         aboutNauMenu.addAll(nauPage.aboutNauSubMenu2);
 
+        log.info("Expected sub menu list: ----> "+menu);
         List<String> aboutList = new ArrayList <>();
         for (WebElement el:aboutNauMenu){
             aboutList.add(el.getText());
-            System.out.println(el.getText());
+            log.info(el.getText());
         }
 
         Assert.assertEquals(menu,aboutList);

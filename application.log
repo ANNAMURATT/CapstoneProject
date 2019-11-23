@@ -1,0 +1,7 @@
+2019-11-21 22:05:20,581  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-11-21 22:05:21,839 DEBUG [main] Preferences:118 - Preference found chrome78=78.0.3904.105 (valid until 2019-11-21 23:03:52)
+2019-11-21 22:05:21,840  INFO [main] WebDriverManager:546 - Using chromedriver 78.0.3904.105 (since Google Chrome 78 is installed in your machine)
+2019-11-21 22:05:21,872 DEBUG [main] WebDriverManager:502 - Driver chromedriver 78.0.3904.105 found in cache
+2019-11-21 22:05:21,873  INFO [main] WebDriverManager:1029 - Exporting webdriver.chrome.driver as C:\Users\gundo\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe
+2019-11-21 22:05:42,765  INFO [main] Hooks:27 - I am reporting the results
+2019-11-21 22:05:42,766  INFO [main] Hooks:37 - Closing driver

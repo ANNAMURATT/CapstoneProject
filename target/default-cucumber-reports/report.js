@@ -89,7 +89,7 @@ formatter.step({
     },
     {
       "cells": [
-        "Favulty \u0026 Staff"
+        "Faculty \u0026 Staff"
       ]
     },
     {
@@ -121,14 +121,9 @@ formatter.after({
 });
 formatter.uri("src\\test\\resources\\features\\SubMenuList.feature");
 formatter.feature({
-  "name": "Verify submenu list",
+  "name": "Verify Main Page submenu list",
   "description": "",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@smoke"
-    }
-  ]
+  "keyword": "Feature"
 });
 formatter.scenario({
   "name": "Verify sub menu of Admission button",
@@ -510,7 +505,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify sub menu of Faculty\u0026Staff button",
+  "name": "Verify sub menu of Campus Life button",
   "description": "",
   "keyword": "Scenario",
   "tags": [
