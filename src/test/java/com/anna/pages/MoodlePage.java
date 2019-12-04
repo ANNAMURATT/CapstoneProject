@@ -31,4 +31,7 @@ public class MoodlePage extends NavigatePages{
     @FindBy(xpath = "//span[@class='item-content-wrap' and contains(text(),'Grades')]")
     public WebElement myGrades;
 
+    @FindBy(xpath = "//aside[@id='block-region-side-post']//h5[@class='card-title d-inline']")
+    public List<WebElement> mySideMenu;
+
 }

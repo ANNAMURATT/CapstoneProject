@@ -3,6 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="cde95560-a869-4dcf-a7eb-f6931c5c95c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/pages/MoodlePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/pages/MoodlePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/ApplyPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/ApplyPageStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MainPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MainPageStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MoodlePageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MoodlePageStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/Office365PageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/Office365PageStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Moodle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Moodle.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SubMenuList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SubMenuList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/capstone-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/capstone-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_185031301.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_185031301.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_697271214.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_697271214.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4089311534.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Apply Now.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Apply Now.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Main page modulus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Main page modulus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Verify Main Page submenu list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Verify Main Page submenu list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/pages/MoodlePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/pages/MoodlePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/ApplyPageStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/ApplyPageStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/LoginPageStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/MainPageStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/MainPageStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/MoodlePageStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/MoodlePageStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/Office365PageStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/stepDefinitions/Office365PageStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anna/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anna/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Moodle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Moodle.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,20 +51,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Office365.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="255">
               <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/Office365PageStepDefinitions.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubMenuList.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="71" column="68" lean-forward="true" selection-start-line="71" selection-start-column="68" selection-end-line="71" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1649">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -38,8 +69,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Moodle.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="-761">
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/MainPage.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Apply.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -47,8 +96,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configuration.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/RegressionTestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,32 +138,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MoodlePageStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/Office365Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/MoodlePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="64" column="5" lean-forward="true" selection-end-line="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,22 +195,22 @@
         <option value="$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/runners/RegressionTestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/ApplyPageStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MainPageStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/SubMenuListStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/Hooks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/SubMenuList.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/MainPage.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/Office365.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/Office365Page.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MoodlePageStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Moodle.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/MoodlePage.java" />
-        <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Office365.feature" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/ApplyPageStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MainPageStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MoodlePageStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/pages/MoodlePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/Office365PageStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java" />
+        <option value="$PROJECT_DIR$/configuration.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/SubMenuList.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Moodle.feature" />
       </list>
     </option>
   </component>
@@ -240,24 +298,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="anna" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capstone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capstone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anna" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capstone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capstone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anna" type="462c0819:PsiDirectoryNode" />
               <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,7 +323,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574478450396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575264889343" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -306,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: 365 Portal account login(negative)">
+  <component name="RunManager" selected="Cucumber java.Feature: Moodle">
     <configuration name="Feature: Moodle" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Moodle.feature" />
@@ -362,15 +402,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 365 Portal account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Moodle page side menu names" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Office365.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Moodle.feature" />
       <option name="GLUE" value="com.anna.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="capstone" />
-      <option name="NAME_FILTER" value="^365 Portal account$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^365 Portal account$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 365 Portal account" />
+      <option name="NAME_FILTER" value="^Moodle page side menu names$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Moodle page side menu names$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Moodle page side menu names" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -402,11 +442,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: 365 Portal account login(negative)" />
         <item itemvalue="Cucumber java.Feature: Moodle" />
+        <item itemvalue="Cucumber java.Scenario: Moodle page side menu names" />
+        <item itemvalue="Cucumber java.Scenario: 365 Portal account login(negative)" />
         <item itemvalue="Cucumber java.Feature: Office365" />
         <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="Cucumber java.Scenario: 365 Portal account" />
       </list>
     </recent_temporary>
   </component>
@@ -424,21 +464,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Moodle - 2019.11.11 at 12h 47m 56s.xml">
-      <configuration name="Feature: Moodle" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Moodle - 2019.11.11 at 12h 50m 01s.xml">
-      <configuration name="Feature: Moodle" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Moodle - 2019.11.11 at 16h 10m 01s.xml">
-      <configuration name="Feature: Moodle" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Moodle - 2019.11.11 at 16h 13m 50s.xml">
-      <configuration name="Feature: Moodle" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Moodle - 2019.11.11 at 16h 15m 14s.xml">
-      <configuration name="Feature: Moodle" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__Moodle - 2019.11.11 at 16h 17m 22s.xml">
       <configuration name="Feature: Moodle" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -454,6 +479,21 @@
     <history-entry file="Scenario__365_Portal_account_login(negative) - 2019.11.21 at 22h 05m 44s.xml">
       <configuration name="Scenario: 365 Portal account login(negative)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Moodle_page_side_menu_names - 2019.11.24 at 15h 19m 46s.xml">
+      <configuration name="Scenario: Moodle page side menu names" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Moodle_page_side_menu_names - 2019.11.24 at 15h 23m 54s.xml">
+      <configuration name="Scenario: Moodle page side menu names" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Moodle_page_side_menu_names - 2019.11.24 at 15h 27m 18s.xml">
+      <configuration name="Scenario: Moodle page side menu names" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Moodle - 2019.11.28 at 11h 22m 45s.xml">
+      <configuration name="Feature: Moodle" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Moodle - 2019.11.28 at 11h 32m 01s.xml">
+      <configuration name="Feature: Moodle" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,9 +505,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2728745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2874494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,15 +517,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5133215" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.06571936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48490232" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.13143872" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -495,7 +536,7 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.32955465" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16437247" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2874494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,15 +545,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.6483126" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06571936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27886322" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37477797" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -529,16 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/NavigatePages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,62 +667,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MainPageStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log4j.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="153">
-          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/SubMenuListStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/RequestInfoPage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -700,57 +677,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Apply.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubMenuList.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -764,40 +690,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/MainPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/ApplyPageStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/RegressionTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Moodle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/LoginPageStepDefinitions.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/Office365Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -808,61 +702,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/MoodlePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/ApplyPageStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MainPageStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="224">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Office365.feature">
+    <entry file="file://$PROJECT_DIR$/application.log.1" />
+    <entry file="file://$PROJECT_DIR$/application.log.2" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/SubMenuListStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="289">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/MoodlePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/Office365PageStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="71" column="68" lean-forward="true" selection-start-line="71" selection-start-column="68" selection-end-line="71" selection-end-column="68" />
+        <state relative-caret-position="379">
+          <caret line="144" column="5" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+    <entry file="file://$PROJECT_DIR$/log4j.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="153">
+          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/LoginPageStepDefinitions.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/NavigatePages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="33" column="33" selection-start-line="9" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/utilities/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="150" column="46" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SubMenuList.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Office365.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/MainPage.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Apply.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/CukesRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/SmokeTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/runners/RegressionTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Moodle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/anna/stepDefinitions/MoodlePageStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+        <state relative-caret-position="180">
+          <caret line="64" column="5" lean-forward="true" selection-end-line="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
               <td>1</td>
-            <td>05 Nov 2019, 19:52</td>
+            <td>01 Dec 2019, 21:33</td>
     </tr>
   </tbody>
 </table>
@@ -130,19 +130,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@smoke</td>
-          <td      class="passed"    >19</td>
           <td >0</td>
           <td >0</td>
+          <td     class="skipped"   >19</td>
           <td >0</td>
           <td >0</td>
           <td class="total">19</td>
 
-          <td  class="passed"    >6</td>
           <td >0</td>
+          <td  class="failed"    >6</td>
           <td class="total">6</td>
 
-          <td class="duration" data-value="44766480500">44.766</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="210500">0.000</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -184,12 +184,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">13.776</span>
+  <span class="lead-duration duration">0.000</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Verifying Main page modulus</span>
   
@@ -200,12 +200,12 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#before-2">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -215,17 +215,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-2" class="inner-level collapse collapsable-details ">
+    <div id="before-2" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.setUp()</span>
                         
-  <span class="lead-duration duration">7.197</span>
+  <span class="lead-duration duration">11.932</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
+          <a>Error message</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.setUp(Hooks.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:40)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -239,9 +325,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-4">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -251,14 +337,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-4" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
   
-  <span class="lead-duration duration">9.961</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -279,11 +365,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">main logo must be <span class="argument">&quot;North American University&quot;</span></span>
   
-  <span class="lead-duration duration">0.659</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -304,11 +390,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">And</span>
   <span class="name">header menu names should be displayed:</span>
   
-  <span class="lead-duration duration">1.976</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -343,11 +429,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">And</span>
   <span class="name">main menu names should be displayed:</span>
   
-  <span class="lead-duration duration">1.178</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -392,9 +478,9 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-5">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -404,17 +490,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.921</span>
+  <span class="lead-duration duration">4.787</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
+          <a>Error message</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.tearDown(Hooks.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:48)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -442,12 +614,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">6.513</span>
+  <span class="lead-duration duration">0.000</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Verify sub menu of Admission button</span>
   
@@ -458,12 +630,12 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details ">
+  <div id="element-7" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-6">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#before-8">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -473,17 +645,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-6" class="inner-level collapse collapsable-details ">
+    <div id="before-8" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.setUp()</span>
                         
-  <span class="lead-duration duration">4.795</span>
+  <span class="lead-duration duration">4.792</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-9">
+          <a>Error message</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.setUp(Hooks.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:40)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -497,9 +755,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-10">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -509,14 +767,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-7" class="inner-level collapse collapsable-details ">
+  <div id="steps-10" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
   
-  <span class="lead-duration duration">5.199</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -537,11 +795,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">When</span>
   <span class="name">user mouse hover over on Admission button</span>
   
-  <span class="lead-duration duration">0.280</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -562,11 +820,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">user should see the list of sub menu</span>
   
-  <span class="lead-duration duration">1.033</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -641,9 +899,9 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-8">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-11">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -653,17 +911,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-8" class="inner-level collapse collapsable-details ">
+    <div id="after-11" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.816</span>
+  <span class="lead-duration duration">4.088</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-12">
+          <a>Error message</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.tearDown(Hooks.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:48)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -691,12 +1035,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">6.108</span>
+  <span class="lead-duration duration">0.000</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Verify sub menu of Academics button</span>
   
@@ -707,12 +1051,12 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-9" class="collapse collapsable-details ">
+  <div id="element-13" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-10">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#before-14">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -722,17 +1066,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-10" class="inner-level collapse collapsable-details ">
+    <div id="before-14" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.setUp()</span>
                         
-  <span class="lead-duration duration">4.032</span>
+  <span class="lead-duration duration">4.900</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-15">
+          <a>Error message</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.setUp(Hooks.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:40)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -746,9 +1176,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-16">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -758,14 +1188,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-11" class="inner-level collapse collapsable-details ">
+  <div id="steps-16" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
   
-  <span class="lead-duration duration">4.897</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -786,11 +1216,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">When</span>
   <span class="name">user mouse hover over on Academics button</span>
   
-  <span class="lead-duration duration">0.231</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -811,11 +1241,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">user should see the list of Academics sub menu</span>
   
-  <span class="lead-duration duration">0.980</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -893,9 +1323,9 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-17">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -905,17 +1335,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-12" class="inner-level collapse collapsable-details ">
+    <div id="after-17" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.806</span>
+  <span class="lead-duration duration">5.373</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-18">
+          <a>Error message</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.tearDown(Hooks.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:48)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -943,12 +1459,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">6.398</span>
+  <span class="lead-duration duration">0.000</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-19">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Verify sub menu of Faculty&amp;Staff button</span>
   
@@ -959,12 +1475,12 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-13" class="collapse collapsable-details ">
+  <div id="element-19" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#before-20">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -974,17 +1490,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-14" class="inner-level collapse collapsable-details ">
+    <div id="before-20" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.setUp()</span>
                         
-  <span class="lead-duration duration">3.896</span>
+  <span class="lead-duration duration">6.463</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-21">
+          <a>Error message</a>
+      </div>
+      <div id="msg-21" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.setUp(Hooks.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:40)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -998,9 +1600,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-15">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-22">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -1010,14 +1612,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-15" class="inner-level collapse collapsable-details ">
+  <div id="steps-22" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
   
-  <span class="lead-duration duration">5.279</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1038,11 +1640,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">When</span>
   <span class="name">user mouse hover over on Faculty&amp;Staff button</span>
   
-  <span class="lead-duration duration">0.214</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1063,11 +1665,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">user should see the list of Faculty&amp;Staff sub menu</span>
   
-  <span class="lead-duration duration">0.904</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1136,9 +1738,9 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-16">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-23">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -1148,17 +1750,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-16" class="inner-level collapse collapsable-details ">
+    <div id="after-23" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.776</span>
+  <span class="lead-duration duration">5.857</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-24">
+          <a>Error message</a>
+      </div>
+      <div id="msg-24" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.tearDown(Hooks.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:48)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -1186,12 +1874,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">5.982</span>
+  <span class="lead-duration duration">0.000</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-17">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-25">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Verify sub menu of Campus Life button</span>
   
@@ -1202,12 +1890,12 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-17" class="collapse collapsable-details ">
+  <div id="element-25" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-18">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#before-26">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -1217,17 +1905,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-18" class="inner-level collapse collapsable-details ">
+    <div id="before-26" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.setUp()</span>
                         
-  <span class="lead-duration duration">3.839</span>
+  <span class="lead-duration duration">3.623</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-27">
+          <a>Error message</a>
+      </div>
+      <div id="msg-27" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.setUp(Hooks.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:40)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -1241,9 +2015,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-19">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-28">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -1253,14 +2027,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-19" class="inner-level collapse collapsable-details ">
+  <div id="steps-28" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
   
-  <span class="lead-duration duration">4.802</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1281,11 +2055,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">When</span>
   <span class="name">user mouse hover over on Campus Life button</span>
   
-  <span class="lead-duration duration">0.258</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1306,11 +2080,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">user should see the list of Campus Life sub menu</span>
   
-  <span class="lead-duration duration">0.921</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1391,9 +2165,9 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-20">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-29">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -1403,17 +2177,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-20" class="inner-level collapse collapsable-details ">
+    <div id="after-29" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.775</span>
+  <span class="lead-duration duration">3.836</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-30">
+          <a>Error message</a>
+      </div>
+      <div id="msg-30" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.tearDown(Hooks.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:48)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -1441,12 +2301,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">5.987</span>
+  <span class="lead-duration duration">0.000</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-21">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-31">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Verify sub menu of About NAU button</span>
   
@@ -1457,12 +2317,12 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-21" class="collapse collapsable-details ">
+  <div id="element-31" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-22">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#before-32">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -1472,17 +2332,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-22" class="inner-level collapse collapsable-details ">
+    <div id="before-32" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.setUp()</span>
                         
-  <span class="lead-duration duration">3.906</span>
+  <span class="lead-duration duration">3.917</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-33">
+          <a>Error message</a>
+      </div>
+      <div id="msg-33" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.setUp(Hooks.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:40)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     
@@ -1496,9 +2442,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-34">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -1508,14 +2454,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-23" class="inner-level collapse collapsable-details ">
+  <div id="steps-34" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
   
-  <span class="lead-duration duration">5.151</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1536,11 +2482,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">When</span>
   <span class="name">user mouse hover over on About Nau button</span>
   
-  <span class="lead-duration duration">0.217</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1561,11 +2507,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">user should see the list of About Nau sub menu</span>
   
-  <span class="lead-duration duration">0.618</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1622,9 +2568,9 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-24">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-35">
       
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Hooks</span>
   <span class="name"></span>
   
@@ -1634,17 +2580,103 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-24" class="inner-level collapse collapsable-details ">
+    <div id="after-35" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
-          <div class="brief passed">
+          <div class="brief failed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">0.799</span>
+  <span class="lead-duration duration">3.315</span>
 
           </div>
 
                       
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-36">
+          <a>Error message</a>
+      </div>
+      <div id="msg-36" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Browser zoom level was set to 89%. It should be set to 100%
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7V03D4I', ip: '192.168.1.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: Driver
+remote stacktrace: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.run(InternetExplorerDriver.java:221)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:213)
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)
+	at com.anna.utilities.Driver.getDriver(Driver.java:64)
+	at com.anna.stepDefinitions.Hooks.tearDown(Hooks.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:48)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:346)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:387)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+      </div>
+    </div>
+  </div>
 
           
                     

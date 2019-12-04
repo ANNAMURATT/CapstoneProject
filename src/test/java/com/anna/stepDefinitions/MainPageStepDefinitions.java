@@ -39,8 +39,9 @@ public class MainPageStepDefinitions {
     public void main_menu_names_should_be_displayed(List<String> expectedMainMenuNames) {
 
 
-        System.out.println(expectedMainMenuNames);
+        log.info("expected main menu items are: "+expectedMainMenuNames);
         MainPage mainPage = new MainPage();
+        log.info("actual main menu items are: ");
         for (WebElement menu:mainPage.main_menu_list){
             System.out.println(menu.getText());
         }

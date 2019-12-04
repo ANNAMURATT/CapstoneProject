@@ -1,6 +1,7 @@
 package com.anna.stepDefinitions;
 
 import com.anna.pages.MoodlePage;
+import com.anna.utilities.ConfigurationReader;
 import com.anna.utilities.Driver;
 import com.sun.xml.xsom.impl.parser.SubstGroupBaseTypeRef;
 import cucumber.api.java.BeforeStep;
@@ -29,6 +30,7 @@ public class MoodlePageStepDefinitions {
         wait.until(ExpectedConditions.visibilityOf(moodlePage.userName));
         String name = moodlePage.userName.getText();
         log.info("username is --->"+name);
+        Assert.assertEquals(ConfigurationReader.getProperty("user"),name);
     }
 
     @Then("user should see the course names which he\\/she already enrolled")
@@ -38,7 +40,7 @@ public class MoodlePageStepDefinitions {
         for (WebElement e:moodlePage.courseNames){
             courseNames.add(e.getText());
         }
-        log.info(courseNames);
+        log.info("actual course names: "+courseNames);
     }
 
     @Then("user should see the upcoming events")
@@ -48,7 +50,7 @@ public class MoodlePageStepDefinitions {
         for (int i = 0; i < moodlePage.eventName.size(); i++) {
             events.put(moodlePage.eventName.get(i).getText(),moodlePage.eventDate.get(i).getText());
         }
-        log.info(events.entrySet());
+        log.info("the upcoming events are: "+events.entrySet());
     }
 
     @Then("user mouse hover over on my courses button")
@@ -56,6 +58,7 @@ public class MoodlePageStepDefinitions {
         Actions actions = new Actions(Driver.getDriver());
         actions.moveToElement(moodlePage.myCourses).build().perform();
         Thread.sleep(3000);
+        log.info("the list of my courses under my courses dropdown");
         for (WebElement el: moodlePage.myCoursesList){
             log.info(el.getText());
         }
@@ -64,11 +67,14 @@ public class MoodlePageStepDefinitions {
     public String courseName;
     @When("user click on random course name")
     public void user_click_on_random_course_name(){
+        log.info("clicking a random course");
         courseName = moodlePage.myCoursesList.get(1).getText();
         moodlePage.myCoursesList.get(1).click();
     }
     @Then("user should see the course name on the top")
     public void user_should_see_the_course_name_on_the_top() {
+        log.info("expected course name is: "+courseName);
+        log.info("actual course name is: "+moodlePage.myCourseName.getText());
         Assert.assertEquals(courseName,moodlePage.myCourseName.getText());
     }
 }

@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7197807200,
+              "duration": 8961339200,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Verifying Main page modulus",
+        "line": 3,
+        "name": "Sign up for apply",
         "description": "",
-        "id": "main-page-modulus;verifying-main-page-modulus",
+        "id": "apply-now;sign-up-for-apply",
         "after": [
           {
             "result": {
-              "duration": 921736400,
+              "duration": 1280510200,
               "status": "passed"
             },
             "match": {
@@ -34,128 +34,104 @@
         "steps": [
           {
             "result": {
-              "duration": 9961970800,
+              "duration": 36461884700,
               "status": "passed"
             },
-            "line": 5,
+            "line": 4,
             "name": "user on the login page",
             "match": {
-              "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+              "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 659906700,
+              "duration": 7318241000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Apply Now button",
+            "match": {
+              "location": "ApplyPageStepDefinitions.user_click_on_Apply_Now_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3937120800,
               "status": "passed"
             },
             "line": 6,
-            "name": "main logo must be \"North American University\"",
+            "name": "page should navigate to the Apply page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"North American University\"",
-                  "offset": 18
-                }
-              ],
-              "location": "MainPageStepDefinitions.main_logo_must_be(String)"
+              "location": "ApplyPageStepDefinitions.page_should_navigate_to_the_Apply_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1976275700,
+              "duration": 2232492100,
               "status": "passed"
             },
             "line": 7,
-            "name": "header menu names should be displayed:",
+            "name": "user click on Apply button",
             "match": {
-              "location": "MainPageStepDefinitions.header_menu_names_should_be_displayed(String\u003e)"
+              "location": "ApplyPageStepDefinitions.user_click_on_Apply_button()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Request Info"
-                ]
-              },
-              {
-                "cells": [
-                  "Apply Now"
-                ]
-              },
-              {
-                "cells": [
-                  "Athletics"
-                ]
-              },
-              {
-                "cells": [
-                  "365 Portal"
-                ]
-              }
-            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61053700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "page should navigate to the Sign Up page",
+            "match": {
+              "location": "ApplyPageStepDefinitions.page_should_navigate_to_the_Sign_Up_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1508511400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters requested informations and click accept terms and click sign up button",
+            "match": {
+              "location": "ApplyPageStepDefinitions.user_enters_requested_informations_and_click_accept_terms_and_click_sign_up_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1178234800,
+              "duration": 18820400,
               "status": "passed"
             },
-            "line": 12,
-            "name": "main menu names should be displayed:",
+            "line": 10,
+            "name": "user successfully sign up for the app",
             "match": {
-              "location": "MainPageStepDefinitions.main_menu_names_should_be_displayed(String\u003e)"
+              "location": "ApplyPageStepDefinitions.user_successfully_sign_up_for_the_app()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Admissions"
-                ]
-              },
-              {
-                "cells": [
-                  "Academics"
-                ]
-              },
-              {
-                "cells": [
-                  "Faculty \u0026 Staff"
-                ]
-              },
-              {
-                "cells": [
-                  "Campus Life"
-                ]
-              },
-              {
-                "cells": [
-                  "Students"
-                ]
-              },
-              {
-                "cells": [
-                  "About NAU"
-                ]
-              }
-            ],
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@smoke"
+            "name": "@regression"
           }
         ]
       }
     ],
-    "name": "Main page modulus",
+    "name": "Apply Now",
     "description": "",
-    "id": "main-page-modulus",
+    "id": "apply-now",
     "keyword": "Feature",
-    "uri": "src\\test\\resources\\features\\MainPage.feature",
+    "uri": "src\\test\\resources\\features\\Apply.feature",
     "tags": [
       {
-        "name": "@smoke",
+        "name": "@regression",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -171,7 +147,7 @@
         "before": [
           {
             "result": {
-              "duration": 4795233300,
+              "duration": 5434678800,
               "status": "passed"
             },
             "match": {
@@ -179,14 +155,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Verify sub menu of Admission button",
+        "line": 3,
+        "name": "365 Portal account login",
         "description": "",
-        "id": "verify-main-page-submenu-list;verify-sub-menu-of-admission-button",
+        "id": "365-portal;365-portal-account-login",
         "after": [
           {
             "result": {
-              "duration": 816423700,
+              "duration": 952253900,
               "status": "passed"
             },
             "match": {
@@ -199,126 +175,92 @@
         "steps": [
           {
             "result": {
-              "duration": 5199055200,
+              "duration": 54358963600,
               "status": "passed"
             },
-            "line": 5,
+            "line": 4,
             "name": "user on the login page",
             "match": {
-              "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+              "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 280556200,
+              "duration": 645871800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Portal button",
+            "match": {
+              "location": "Office365PageStepDefinitions.user_click_on_Portal_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1496157000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user mouse hover over on Admission button",
+            "name": "user should see the login page",
             "match": {
-              "location": "SubMenuListStepDefinitions.user_mouse_hover_over_on_Admission_button()"
+              "location": "Office365PageStepDefinitions.user_should_see_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25779569100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid credentials and click on login button",
+            "match": {
+              "location": "Office365PageStepDefinitions.user_enters_valid_credentials_and_click_on_login_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1033529200,
+              "duration": 22239700,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user should see the list of sub menu",
+            "line": 8,
+            "name": "user should be navigated to the Office page",
             "match": {
-              "location": "SubMenuListStepDefinitions.user_should_see_the_list_of_sub_menu(String\u003e)"
+              "location": "Office365PageStepDefinitions.user_should_be_navigated_to_the_Office_page()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Undergraduate"
-                ]
-              },
-              {
-                "cells": [
-                  "Discover NAU"
-                ]
-              },
-              {
-                "cells": [
-                  "Degree Programs"
-                ]
-              },
-              {
-                "cells": [
-                  "Tuition and Fees"
-                ]
-              },
-              {
-                "cells": [
-                  "Scholarships"
-                ]
-              },
-              {
-                "cells": [
-                  "International"
-                ]
-              },
-              {
-                "cells": [
-                  "Graduate"
-                ]
-              },
-              {
-                "cells": [
-                  "Apply Now"
-                ]
-              },
-              {
-                "cells": [
-                  "Graduate Degrees"
-                ]
-              },
-              {
-                "cells": [
-                  "Distance Education"
-                ]
-              },
-              {
-                "cells": [
-                  "International"
-                ]
-              },
-              {
-                "cells": [
-                  "Gulf Language School"
-                ]
-              },
-              {
-                "cells": [
-                  "GLS Admissions"
-                ]
-              },
-              {
-                "cells": [
-                  "GLS Programs"
-                ]
-              },
-              {
-                "cells": [
-                  "GLS Students"
-                ]
-              },
-              {
-                "cells": [
-                  "GLS Faculty"
-                ]
-              }
-            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2141951100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on Moodle NAU button",
+            "match": {
+              "location": "Office365PageStepDefinitions.user_click_on_Moodle_NAU_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21508816400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see Moodle main page",
+            "match": {
+              "location": "Office365PageStepDefinitions.user_should_see_Moodle_main_page()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@smoke"
+            "name": "@regression"
           }
         ]
       },
@@ -326,7 +268,7 @@
         "before": [
           {
             "result": {
-              "duration": 4032294300,
+              "duration": 5101435900,
               "status": "passed"
             },
             "match": {
@@ -334,14 +276,14 @@
             }
           }
         ],
-        "line": 27,
-        "name": "Verify sub menu of Academics button",
+        "line": 12,
+        "name": "365 Portal account login(negative)",
         "description": "",
-        "id": "verify-main-page-submenu-list;verify-sub-menu-of-academics-button",
+        "id": "365-portal;365-portal-account-login(negative)",
         "after": [
           {
             "result": {
-              "duration": 806336000,
+              "duration": 1143344000,
               "status": "passed"
             },
             "match": {
@@ -354,68 +296,89 @@
         "steps": [
           {
             "result": {
-              "duration": 4897487900,
+              "duration": 5733756400,
               "status": "passed"
             },
-            "line": 28,
+            "line": 13,
             "name": "user on the login page",
             "match": {
-              "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+              "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 231047300,
+              "duration": 354932200,
               "status": "passed"
             },
-            "line": 29,
-            "name": "user mouse hover over on Academics button",
+            "line": 14,
+            "name": "user click on Portal button",
             "match": {
-              "location": "SubMenuListStepDefinitions.user_mouse_hover_over_on_Academics_button()"
+              "location": "Office365PageStepDefinitions.user_click_on_Portal_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1131199300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should see the login page",
+            "match": {
+              "location": "Office365PageStepDefinitions.user_should_see_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7582145900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters invalid credentials and click on login button",
+            "match": {
+              "location": "Office365PageStepDefinitions.user_enters_invalid_credentials_and_click_on_login_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 980152000,
+              "duration": 194726800,
               "status": "passed"
             },
-            "line": 30,
-            "name": "user should see the list of Academics sub menu",
+            "line": 17,
+            "name": "user should not be navigated to the Office page",
             "match": {
-              "location": "SubMenuListStepDefinitions.user_should_see_the_list_of_Academics_sub_menu(String\u003e)"
+              "location": "Office365PageStepDefinitions.user_should_not_be_navigated_to_the_Office_page()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Academics"
-                ]
-              },
-              {
-                "cells": [
-                  "Undergraduate Programs"
-                ]
-              },
-              {
-                "cells": [
-                  "Graduate Programs"
-                ]
-              },
-              {
-                "cells": [
-                  "GLS Programs"
-                ]
-              },
-              {
-                "cells": [
-                  "Distance Education"
-                ]
-              },
-              {
-                "cells": [
-                  "Educator Certification"
-                ]
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "365 Portal",
+    "description": "",
+    "id": "365-portal",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\Office365.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]        ]
               },
               {
                 "cells": [
@@ -486,7 +449,7 @@
         "before": [
           {
             "result": {
-              "duration": 3896816700,
+              "duration": 6389954300,
               "status": "passed"
             },
             "match": {
@@ -501,7 +464,7 @@
         "after": [
           {
             "result": {
-              "duration": 776195500,
+              "duration": 1357440200,
               "status": "passed"
             },
             "match": {
@@ -514,19 +477,19 @@
         "steps": [
           {
             "result": {
-              "duration": 5279733400,
+              "duration": 16217123100,
               "status": "passed"
             },
             "line": 52,
             "name": "user on the login page",
             "match": {
-              "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+              "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 214764100,
+              "duration": 391773600,
               "status": "passed"
             },
             "line": 53,
@@ -538,7 +501,7 @@
           },
           {
             "result": {
-              "duration": 904084900,
+              "duration": 2167375100,
               "status": "passed"
             },
             "line": 54,
@@ -631,7 +594,7 @@
         "before": [
           {
             "result": {
-              "duration": 3839553200,
+              "duration": 4647944000,
               "status": "passed"
             },
             "match": {
@@ -646,7 +609,7 @@
         "after": [
           {
             "result": {
-              "duration": 775857100,
+              "duration": 1360263700,
               "status": "passed"
             },
             "match": {
@@ -659,19 +622,19 @@
         "steps": [
           {
             "result": {
-              "duration": 4802427300,
+              "duration": 10999082200,
               "status": "passed"
             },
             "line": 74,
             "name": "user on the login page",
             "match": {
-              "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+              "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 258020300,
+              "duration": 316865600,
               "status": "passed"
             },
             "line": 75,
@@ -683,7 +646,7 @@
           },
           {
             "result": {
-              "duration": 921647900,
+              "duration": 1932362600,
               "status": "passed"
             },
             "line": 76,
@@ -796,7 +759,7 @@
         "before": [
           {
             "result": {
-              "duration": 3906566900,
+              "duration": 4186844000,
               "status": "passed"
             },
             "match": {
@@ -811,7 +774,7 @@
         "after": [
           {
             "result": {
-              "duration": 799881800,
+              "duration": 754616000,
               "status": "passed"
             },
             "match": {
@@ -824,19 +787,19 @@
         "steps": [
           {
             "result": {
-              "duration": 5151399300,
+              "duration": 7017468700,
               "status": "passed"
             },
             "line": 100,
             "name": "user on the login page",
             "match": {
-              "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+              "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 217322400,
+              "duration": 234091700,
               "status": "passed"
             },
             "line": 101,
@@ -848,7 +811,7 @@
           },
           {
             "result": {
-              "duration": 618865100,
+              "duration": 951350300,
               "status": "passed"
             },
             "line": 102,

@@ -1,6 +1,6 @@
-
+@smoke
   Feature: Verify Main Page submenu list
-    @smoke
+
     Scenario: Verify sub menu of Admission button
       Given user on the login page
       When user mouse hover over on Admission button
@@ -23,7 +23,7 @@
         | GLS Students         |
         | GLS Faculty          |
 
-    @smoke
+
     Scenario: Verify sub menu of Academics button
       Given user on the login page
       When user mouse hover over on Academics button
@@ -47,7 +47,7 @@
         | Course Schedule        |
         | Finals Schedule        |
 
-    @smoke
+
     Scenario: Verify sub menu of Faculty&Staff button
       Given user on the login page
       When user mouse hover over on Faculty&Staff button
@@ -69,7 +69,7 @@
         | Student Workers    |
 
 
-    @smoke
+
     Scenario: Verify sub menu of Campus Life button
       Given user on the login page
       When user mouse hover over on Campus Life button
@@ -95,7 +95,7 @@
         | Campus Crime Report   |
 
 
-    @smoke
+
     Scenario: Verify sub menu of About NAU button
       Given user on the login page
       When user mouse hover over on About Nau button

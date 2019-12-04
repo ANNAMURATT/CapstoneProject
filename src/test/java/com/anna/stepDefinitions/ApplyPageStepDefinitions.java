@@ -37,7 +37,7 @@ public class ApplyPageStepDefinitions {
     @Then("page should navigate to the Apply page")
     public void page_should_navigate_to_the_Apply_page() {
         String pageTitle = Driver.getDriver().getTitle();
-        log.info(pageTitle);
+        log.info("the page title should be: "+pageTitle);
     }
 
     @When("user click on Apply button")
@@ -53,7 +53,7 @@ public class ApplyPageStepDefinitions {
     public void page_should_navigate_to_the_Sign_Up_page() {
 
         String pageTitle2 = Driver.getDriver().getTitle();
-        log.info(pageTitle2);
+        log.info("the page title should be sign up: "+pageTitle2);
 
     }
 
@@ -69,8 +69,8 @@ public class ApplyPageStepDefinitions {
     public void user_successfully_sign_up_for_the_app() {
         log.info("Getting page title");
         String pageTitle3 = Driver.getDriver().getTitle();
-        log.info(pageTitle3);
+        log.info("the page title should be success: "+pageTitle3);
         log.debug(pageTitle3);
-        System.out.println(pageTitle3);
+
     }
 }

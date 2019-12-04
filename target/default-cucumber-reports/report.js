@@ -1,21 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src\\test\\resources\\features\\MainPage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src\\test\\resources\\features\\Apply.feature");
 formatter.feature({
-  "name": "Main page modulus",
+  "name": "Apply Now",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@smoke"
+      "name": "@regression"
     }
   ]
 });
 formatter.scenario({
-  "name": "Verifying Main page modulus",
+  "name": "Sign up for apply",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smoke"
+      "name": "@regression"
     }
   ]
 });
@@ -27,91 +27,67 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+  "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "main logo must be \"North American University\"",
+  "name": "user click on Apply Now button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "ApplyPageStepDefinitions.user_click_on_Apply_Now_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "page should navigate to the Apply page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MainPageStepDefinitions.main_logo_must_be(String)"
+  "location": "ApplyPageStepDefinitions.page_should_navigate_to_the_Apply_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "header menu names should be displayed:",
-  "rows": [
-    {
-      "cells": [
-        "Request Info"
-      ]
-    },
-    {
-      "cells": [
-        "Apply Now"
-      ]
-    },
-    {
-      "cells": [
-        "Athletics"
-      ]
-    },
-    {
-      "cells": [
-        "365 Portal"
-      ]
-    }
-  ],
-  "keyword": "And "
+  "name": "user click on Apply button",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "MainPageStepDefinitions.header_menu_names_should_be_displayed(String\u003e)"
+  "location": "ApplyPageStepDefinitions.user_click_on_Apply_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "main menu names should be displayed:",
-  "rows": [
-    {
-      "cells": [
-        "Admissions"
-      ]
-    },
-    {
-      "cells": [
-        "Academics"
-      ]
-    },
-    {
-      "cells": [
-        "Faculty \u0026 Staff"
-      ]
-    },
-    {
-      "cells": [
-        "Campus Life"
-      ]
-    },
-    {
-      "cells": [
-        "Students"
-      ]
-    },
-    {
-      "cells": [
-        "About NAU"
-      ]
-    }
-  ],
+  "name": "page should navigate to the Sign Up page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ApplyPageStepDefinitions.page_should_navigate_to_the_Sign_Up_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters requested informations and click accept terms and click sign up button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "MainPageStepDefinitions.main_menu_names_should_be_displayed(String\u003e)"
+  "location": "ApplyPageStepDefinitions.user_enters_requested_informations_and_click_accept_terms_and_click_sign_up_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user successfully sign up for the app",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ApplyPageStepDefinitions.user_successfully_sign_up_for_the_app()"
 });
 formatter.result({
   "status": "passed"
@@ -119,19 +95,24 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.uri("src\\test\\resources\\features\\SubMenuList.feature");
+formatter.uri("src\\test\\resources\\features\\Office365.feature");
 formatter.feature({
-  "name": "Verify Main Page submenu list",
+  "name": "365 Portal",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
 });
 formatter.scenario({
-  "name": "Verify sub menu of Admission button",
+  "name": "365 Portal account login",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smoke"
+      "name": "@regression"
     }
   ]
 });
@@ -143,109 +124,67 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+  "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user mouse hover over on Admission button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "SubMenuListStepDefinitions.user_mouse_hover_over_on_Admission_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should see the list of sub menu",
-  "rows": [
-    {
-      "cells": [
-        "Undergraduate"
-      ]
-    },
-    {
-      "cells": [
-        "Discover NAU"
-      ]
-    },
-    {
-      "cells": [
-        "Degree Programs"
-      ]
-    },
-    {
-      "cells": [
-        "Tuition and Fees"
-      ]
-    },
-    {
-      "cells": [
-        "Scholarships"
-      ]
-    },
-    {
-      "cells": [
-        "International"
-      ]
-    },
-    {
-      "cells": [
-        "Graduate"
-      ]
-    },
-    {
-      "cells": [
-        "Apply Now"
-      ]
-    },
-    {
-      "cells": [
-        "Graduate Degrees"
-      ]
-    },
-    {
-      "cells": [
-        "Distance Education"
-      ]
-    },
-    {
-      "cells": [
-        "International"
-      ]
-    },
-    {
-      "cells": [
-        "Gulf Language School"
-      ]
-    },
-    {
-      "cells": [
-        "GLS Admissions"
-      ]
-    },
-    {
-      "cells": [
-        "GLS Programs"
-      ]
-    },
-    {
-      "cells": [
-        "GLS Students"
-      ]
-    },
-    {
-      "cells": [
-        "GLS Faculty"
-      ]
-    }
-  ],
+  "name": "user click on Portal button",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SubMenuListStepDefinitions.user_should_see_the_list_of_sub_menu(String\u003e)"
+  "location": "Office365PageStepDefinitions.user_click_on_Portal_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user should see the login page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Office365PageStepDefinitions.user_should_see_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters valid credentials and click on login button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Office365PageStepDefinitions.user_enters_valid_credentials_and_click_on_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user should be navigated to the Office page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Office365PageStepDefinitions.user_should_be_navigated_to_the_Office_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user click on Moodle NAU button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Office365PageStepDefinitions.user_click_on_Moodle_NAU_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user should see Moodle main page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Office365PageStepDefinitions.user_should_see_Moodle_main_page()"
 });
 formatter.result({
   "status": "passed"
@@ -254,12 +193,12 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify sub menu of Academics button",
+  "name": "365 Portal account login(negative)",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smoke"
+      "name": "@regression"
     }
   ]
 });
@@ -271,87 +210,55 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+  "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user mouse hover over on Academics button",
+  "name": "user click on Portal button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Office365PageStepDefinitions.user_click_on_Portal_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user should see the login page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Office365PageStepDefinitions.user_should_see_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters invalid credentials and click on login button",
   "keyword": "When "
 });
 formatter.match({
-  "location": "SubMenuListStepDefinitions.user_mouse_hover_over_on_Academics_button()"
+  "location": "Office365PageStepDefinitions.user_enters_invalid_credentials_and_click_on_login_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user should see the list of Academics sub menu",
-  "rows": [
-    {
-      "cells": [
-        "Academics"
-      ]
-    },
-    {
-      "cells": [
-        "Undergraduate Programs"
-      ]
-    },
-    {
-      "cells": [
-        "Graduate Programs"
-      ]
-    },
-    {
-      "cells": [
-        "GLS Programs"
-      ]
-    },
-    {
-      "cells": [
-        "Distance Education"
-      ]
-    },
-    {
-      "cells": [
-        "Educator Certification"
-      ]
-    },
-    {
-      "cells": [
-        "Certificate Programs"
-      ]
-    },
-    {
-      "cells": [
-        "Academic Resources"
-      ]
-    },
-    {
-      "cells": [
-        "Academic Clubs"
-      ]
-    },
-    {
-      "cells": [
-        "NAU Library"
-      ]
-    },
-    {
-      "cells": [
-        "Faculty Members"
-      ]
-    },
-    {
-      "cells": [
-        "Brochures"
-      ]
-    },
-    {
-      "cells": [
-        "Academic Catalog"
+  "name": "user should not be navigated to the Office page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Office365PageStepDefinitions.user_should_not_be_navigated_to_the_Office_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+});ademic Catalog"
       ]
     },
     {
@@ -404,7 +311,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+  "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
 });
 formatter.result({
   "status": "passed"
@@ -522,7 +429,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+  "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
 });
 formatter.result({
   "status": "passed"
@@ -660,7 +567,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginPageStepDefinitions.user_on_the_login_page()"
+  "location": "Office365PageStepDefinitions.user_on_theLogin_page()"
 });
 formatter.result({
   "status": "passed"

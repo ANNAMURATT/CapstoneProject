@@ -13,7 +13,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class Driver {
@@ -40,6 +43,13 @@ public class Driver {
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
+                    FirefoxProfile profile = new FirefoxProfile();
+                    profile.setPreference("capability.policy.default.Window.QueryInterface", "allAccess");
+                    profile.setPreference("capability.policy.default.Window.frameElement.get","allAccess");
+                    profile.setAcceptUntrustedCertificates(true); profile.setAssumeUntrustedCertificateIssuer(true);
+                    DesiredCapabilities capabilities = new DesiredCapabilities();
+                    capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+                    driver = new FirefoxDriver(capabilities);
                     break;
                 case "firefox-headless":
                     WebDriverManager.firefoxdriver().setup();
