@@ -76,8 +76,10 @@ public class Office365PageStepDefinitions {
         Thread.sleep(3000);
         log.info("entering password");
         office.passwordInput.sendKeys(ConfigurationReader.getProperty("password"));
-        Thread.sleep(3000);
-        log.info("clicking to sig in button");
+//        Thread.sleep(3000);
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),10);
+        wait.until(ExpectedConditions.elementToBeClickable(office.signIn));
+        log.info("clicking to sign in button");
         office.signIn.click();
         office.next.click();
 
@@ -94,7 +96,7 @@ public class Office365PageStepDefinitions {
         office.passwordInput.sendKeys(ConfigurationReader.getProperty("wrongpassword"));
         log.info("clicking to sig in button");
         Thread.sleep(3000);
-        office.signIn.click();
+
 
     }
 
@@ -111,6 +113,8 @@ public class Office365PageStepDefinitions {
                 Driver.getDriver().switchTo().window(window);
             }
         }
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),10);
+        wait.until(ExpectedConditions.urlContains("moodle"));
         currentWindow = Driver.getDriver().getWindowHandle();
 
         log.info(currentWindow);
@@ -125,7 +129,7 @@ public class Office365PageStepDefinitions {
 
         String url = Driver.getDriver().getCurrentUrl();
         log.info("the current url is"+url);
-        Assert.assertFalse(url.equals("https://moodle.na.edu/my/"));
+        Assert.assertFalse(url.equals("https://login.microsoftonline.com/common/login"));
     }
 
     @Then("user should see the following menu names on the right side menu")

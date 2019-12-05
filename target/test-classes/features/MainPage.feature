@@ -1,4 +1,4 @@
-@smoke
+@smoke @regression
 Feature: Main page modulus
 
   Scenario: Verifying Main page modulus

@@ -1,6 +1,5 @@
-@smoke
+@smoke @regression
   Feature: Verify Main Page submenu list
-
     Scenario: Verify sub menu of Admission button
       Given user on the login page
       When user mouse hover over on Admission button

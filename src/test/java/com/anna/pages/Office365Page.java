@@ -14,7 +14,7 @@ public class Office365Page extends NavigatePages {
     @FindBy(xpath = "//input[@id='idSIButton9']")
     public WebElement next;
 
-    @FindBy(xpath = "//input[@id='idSIButton9' and @value='Sign in']")
+    @FindBy(xpath = "//*[@id='idSIButton9']")
     public WebElement signIn;
 
     @FindBy(css = "[id='ShellMail_link']")

@@ -1,4 +1,4 @@
-@Regression
+@regression
 Feature: Moodle page
   Scenario: Moodle page login
     Given user on the login page

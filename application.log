@@ -1,201 +1,384 @@
-2019-12-01 21:34:27,202  INFO [pool-1-thread-1] Hooks:19 - I am setting up the test from the Hooks class!!!
-2019-12-01 21:34:28,809 DEBUG [pool-1-thread-1] RequestAddCookies:123 - CookieSpec selected: standard
-2019-12-01 21:34:28,820 DEBUG [pool-1-thread-1] RequestAuthCache:77 - Auth cache not set in the context
-2019-12-01 21:34:28,822 DEBUG [pool-1-thread-1] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2019-12-01 21:34:28,842 DEBUG [pool-1-thread-1] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2019-12-01 21:34:28,844 DEBUG [pool-1-thread-1] MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
-2019-12-01 21:34:29,290 DEBUG [pool-1-thread-1] DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/151.101.48.133:443
-2019-12-01 21:34:29,291 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/151.101.48.133:443 with timeout 0
-2019-12-01 21:34:29,479 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
-2019-12-01 21:34:29,479 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
-2019-12-01 21:34:29,479 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:395 - Starting handshake
-2019-12-01 21:34:29,842 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:425 - Secure session established
-2019-12-01 21:34:29,842 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
-2019-12-01 21:34:29,842 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-2019-12-01 21:34:29,843 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
-2019-12-01 21:34:29,844 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
-2019-12-01 21:34:29,845 DEBUG [pool-1-thread-1] SSLConnectionSocketFactory:448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
-2019-12-01 21:34:29,847 DEBUG [pool-1-thread-1] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.207:51040<->151.101.48.133:443
-2019-12-01 21:34:29,848 DEBUG [pool-1-thread-1] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
-2019-12-01 21:34:29,848 DEBUG [pool-1-thread-1] MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
-2019-12-01 21:34:29,849 DEBUG [pool-1-thread-1] MainClientExec:261 - Target auth state: UNCHALLENGED
-2019-12-01 21:34:29,850 DEBUG [pool-1-thread-1] MainClientExec:267 - Proxy auth state: UNCHALLENGED
-2019-12-01 21:34:29,851 DEBUG [pool-1-thread-1] headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
-2019-12-01 21:34:29,852 DEBUG [pool-1-thread-1] headers:136 - http-outgoing-0 >> User-Agent: Mozilla/5.0
-2019-12-01 21:34:29,853 DEBUG [pool-1-thread-1] headers:136 - http-outgoing-0 >> Connection: keep-alive
-2019-12-01 21:34:29,853 DEBUG [pool-1-thread-1] headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
-2019-12-01 21:34:29,853 DEBUG [pool-1-thread-1] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
-2019-12-01 21:34:29,854 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
-2019-12-01 21:34:29,854 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
-2019-12-01 21:34:29,854 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
-2019-12-01 21:34:29,855 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
-2019-12-01 21:34:29,855 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2019-12-01 21:34:29,856 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 >> "[\r][\n]"
-2019-12-01 21:34:29,864 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-2019-12-01 21:34:29,865 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
-2019-12-01 21:34:29,865 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
-2019-12-01 21:34:29,866 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
-2019-12-01 21:34:29,866 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
-2019-12-01 21:34:29,866 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
-2019-12-01 21:34:29,867 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "ETag: W/"cc220cf00395b3223ce06a330d6d42326df4279d5315b997f161bb143dceadd1"[\r][\n]"
-2019-12-01 21:34:29,867 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
-2019-12-01 21:34:29,868 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
-2019-12-01 21:34:29,868 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-Geo-Block-List:[\r][\n]"
-2019-12-01 21:34:29,868 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: 2DAA:1102:404C7B:4EA37B:5DE485B6[\r][\n]"
-2019-12-01 21:34:29,869 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
-2019-12-01 21:34:29,869 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Content-Length: 679[\r][\n]"
-2019-12-01 21:34:29,869 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
-2019-12-01 21:34:29,869 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Date: Mon, 02 Dec 2019 03:34:30 GMT[\r][\n]"
-2019-12-01 21:34:29,870 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
-2019-12-01 21:34:29,870 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-2019-12-01 21:34:29,870 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-Served-By: cache-dfw18626-DFW[\r][\n]"
-2019-12-01 21:34:29,871 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
-2019-12-01 21:34:29,871 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
-2019-12-01 21:34:29,871 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-Timer: S1575257670.393243,VS0,VE1[\r][\n]"
-2019-12-01 21:34:29,872 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
-2019-12-01 21:34:29,872 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
-2019-12-01 21:34:29,873 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: a0e71d73024b8432ea0cfe4b0cd543634def6c89[\r][\n]"
-2019-12-01 21:34:29,873 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Expires: Mon, 02 Dec 2019 03:39:30 GMT[\r][\n]"
-2019-12-01 21:34:29,873 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "Source-Age: 144[\r][\n]"
-2019-12-01 21:34:29,874 DEBUG [pool-1-thread-1] wire:73 - http-outgoing-0 << "[\r][\n]"
-2019-12-01 21:34:29,874 DEBUG [pool-1-thread-1] wire:87 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95]K[0x8f][0xdb] [0x10][0x80][0xef][0xf9][0x15]H{i[0xf][0xc1][0xbc][0xc]v$_[0xfa]<U=[0xb4][0xf7][0xca][0x89]I[0x82][0xd6]1[0x11][0xf6]n[0xda][0xfe][0xfa]2<[0xbc]l[0xd4]J=~[0x9f]a[0x98]0[0xc3][0xe4][0x1]}?[0x9b][0x19][0x1d][0xcd][0xa8][0xd1][0xc1]NKo[0xa6][0x19]-g[0x8d][0x1e]'{[0x9b][0xd0][0xb3]v[0xb3][0xb1]^[0x1d][0xad]C[0x83]3[0xc0][0xe8][0xcd][0xde]L[0xbd][0xfb][0xf5][0xd6]o[0xb8]\[0xfb][0xc5][0xec][0xfd][0xde][0x9b]Y[0xce]a[0xdf][0xc1]:[0xa7][0xe7][0xab][0x9d][0x6]3[0x9d][0xd0][0xde][0xd9][0xdb][0xac]][0x8e][0xb3][0xd9]<[0xa0]wQ[0xed][0xd0]gkO~[0xe7][0xfb][0xb3][0xb3][0x17][0x8d][0xb6][0xe8]C[0x8][0xbf]C[0x87] [0xe2]a~[0xfd]7[0xfb][0xe4][0xe]z[0x87][0xce][0xcb]r[0xdd]UU[0xf9][0x15][0x7]0O[0x17]l[0xdd][0xa9][0x1a]|[0xc2][0xa3][0xed][0x87]y[0x13][0xd7][0xa8][0xb6]S-&[0x98][0xb7][0xa2][0xc6]\f[0xdb]t[0xaa][0x9][0x96][0x8]LI[0x9d][0xb5][0xea][0x94][0x2][0xdd][0xc8][0x1a][0xb][0x92][0xad][0xec][0x94][0xc][0x96][0xb4][0x98][0xb2]5F[0xdd][0xa9][0x1a][0xb4]R[0x4][0xd3][0x97][0xd5][0xa2]S"h[0xd6][0xe2]u-[0xef][0x14][0x7])[0x1b][0x8e]e[0x93]-[0xeb][0x18][0x16][0xeb][0x1a][0xfa][0x8a][0x8]PNL[0xb6]@"S[0x3][0xc4]2) [0x9a]I[0x2][0xe5]dd[0xed][0x89][0xe7][0xf3][0xa4][0x0]R[0x99]8P>OB.|=[0xf]r[0xe1][0xeb]y[0x90][0xb][0xe7][0xaf][0xea][0xf6][0xc5][0xfe]6[0xe3][0xd8][0xa3]O[0xc6][0xe9][0xa3][0xfd]YT[0xee][0xa4][0xf][0x8f][0xf6][0xaf][0x85][0x9b]}[0xe5]N[0xbe]E[0x9e][0xf6][0xd8]7Mu[0x89]![0xaa]bC[0xe5][0xf4][0xa8][0xfb]Y[0xcf][0x9b]c[0x8c][0xeb]8[0xc1][0xcc][0xdf][0xfe]*[0x1a][0x10]u![0x14][0x8]Q[0x8]y/[0xea]{!@[0xf0]B[0xf0]{[0xc1]@[0xb0]BP[0x10][0xb4][0x10][0xe4]N[0xd4][0xed][0xbd]h[0xee][0x85][0xba][0x17]!SR[0x88]:[0x8b][0xf2][0xaa][0xbf]^[0xb5][0xeb][0x8b][0xb][0xb6][0xc0][0xff]s[0xc1]a[0xe1]l[0x8f][0xcb][0xad]w:R~+[0xf7][0xd7][0x1d]>[0xfa][0x8b]zy[0x15][0x8d]JR[0x14]o[0x82]2[0x92],/[0xdf][0x4]g[0xc9][0xb2][0xf2]I[0x90][0xbc]6[0xb5]r[0x80][0xba]-!5r[0x84][0xd4][0xc7][0x11]R[0x1b]GH][0x1c]!5q[0x84][0xd4][0xc3][0x11]R[0xb]G[0xa0][0xb1]g#[0x90][0x2][0x4]d[0x90]3[0x16][0x90][0x1]O[0xe7][0x8][0xc8][0x80][0xb5][0x9]d[0x84]WMo[0xe][0xce][0xc2][0x85][0xa2][0x8f][0xc3][0xa9][0x9c]V[0x97]Y{[0xf1][0xcf][0x9a][0xc][0xfa]Y[0x8f][0x10][0x15]_r[0x84]P =m[0x9f][0xe6]ju[[0x8]R-[0xd6][0x8e]su[0xd3][0xfb]T#[0xb4][0xdd][0xae][0x81][0xf4][0x84]o[0xe6][0xd1]\[0xf5]`[0xfa]0[0xee][0x80][0xaa]5[0xad][0x1f][0x90][0xd6][0x6][0xa2][0xac]c[0x8f]BW[0x7][0x93]F[0x1e][0x83]jF[0x93][0xa6][0x1d][0xe3][0xab]I[0x93][0x8e]6[0xeb][0xae]4[0xe4](o}c[0x6]%Dwuz[0xeb][0xff]"[0x96]~[0x1c][0xf5][0x10]%[0xeb]$[0xa6][0x8a][0xfa][0x99][0x11][0x90]v[0xbe]Y$k[0xdb][0x88][0xa4][0xf3]c[0xb6]&[0x92][0x7][0xe4]M[0xc7][0xfd][0xc4][0xe4]mD[0x6][0xe5][0xf5]C[0xb8][0x91][0x11]IG=2_[0xfd]?[0xb8][0x1][0xf1][0xe4][0x98][0x6][0x0][0x0]"
-2019-12-01 21:34:29,878 DEBUG [pool-1-thread-1] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
-2019-12-01 21:34:29,878 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-2019-12-01 21:34:29,879 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
-2019-12-01 21:34:29,879 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
-2019-12-01 21:34:29,879 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-Frame-Options: deny
-2019-12-01 21:34:29,880 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
-2019-12-01 21:34:29,880 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << ETag: W/"cc220cf00395b3223ce06a330d6d42326df4279d5315b997f161bb143dceadd1"
-2019-12-01 21:34:29,880 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
-2019-12-01 21:34:29,881 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Cache-Control: max-age=300
-2019-12-01 21:34:29,881 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-Geo-Block-List:
-2019-12-01 21:34:29,881 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-GitHub-Request-Id: 2DAA:1102:404C7B:4EA37B:5DE485B6
-2019-12-01 21:34:29,882 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Content-Encoding: gzip
-2019-12-01 21:34:29,882 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Content-Length: 679
-2019-12-01 21:34:29,882 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
-2019-12-01 21:34:29,883 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Date: Mon, 02 Dec 2019 03:34:30 GMT
-2019-12-01 21:34:29,883 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Via: 1.1 varnish
-2019-12-01 21:34:29,883 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Connection: keep-alive
-2019-12-01 21:34:29,883 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-Served-By: cache-dfw18626-DFW
-2019-12-01 21:34:29,884 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-Cache: HIT
-2019-12-01 21:34:29,884 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-Cache-Hits: 1
-2019-12-01 21:34:29,884 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-Timer: S1575257670.393243,VS0,VE1
-2019-12-01 21:34:29,885 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
-2019-12-01 21:34:29,885 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
-2019-12-01 21:34:29,885 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << X-Fastly-Request-ID: a0e71d73024b8432ea0cfe4b0cd543634def6c89
-2019-12-01 21:34:29,886 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Expires: Mon, 02 Dec 2019 03:39:30 GMT
-2019-12-01 21:34:29,886 DEBUG [pool-1-thread-1] headers:125 - http-outgoing-0 << Source-Age: 144
-2019-12-01 21:34:29,892 DEBUG [pool-1-thread-1] MainClientExec:285 - Connection can be kept alive indefinitely
-2019-12-01 21:34:29,899 DEBUG [pool-1-thread-1] PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
-2019-12-01 21:34:29,903 DEBUG [pool-1-thread-1] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
-2019-12-01 21:34:29,903 DEBUG [pool-1-thread-1] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
-2019-12-01 21:35:12,588  INFO [pool-1-thread-1] MainPageStepDefinitions:17 - Checking logo text
-2019-12-01 21:35:12,588  INFO [pool-1-thread-1] MainPageStepDefinitions:18 - Expected logo text --->North American University
-2019-12-01 21:35:12,994  INFO [pool-1-thread-1] MainPageStepDefinitions:22 - Actual Logo Text ---->North A2019-12-01 21:35:19,710  INFO [pool-1-thread-1] ApplyPageStepDefinitions:29 - CDwindow-409224330B5BC69869EAC445CA019203
-2019-12-01 21:35:19,711  INFO [pool-1-thread-1] ApplyPageStepDefinitions:29 - CDwindow-3DA976B3F554DBA00634386A3997A23B
-2019-12-01 21:35:23,682  INFO [pool-1-thread-1] ApplyPageStepDefinitions:40 - the page title should be: Apply North American University
-2019-12-01 21:35:23,683  INFO [pool-1-thread-1] ApplyPageStepDefinitions:46 - Clicking Apply button
-2019-12-01 21:35:23,769  WARN [pool-1-thread-1] ApplyPageStepDefinitions:47 - true
-2019-12-01 21:35:25,976  INFO [pool-1-thread-1] ApplyPageStepDefinitions:56 - the page title should be sign up: North American University
-2019-12-01 21:35:25,976  INFO [pool-1-thread-1] ApplyPageStepDefinitions:62 - Entering info for applying
-2019-12-01 21:35:27,485  INFO [pool-1-thread-1] ApplyPageStepDefinitions:70 - Getting page title
-2019-12-01 21:35:27,503  INFO [pool-1-thread-1] ApplyPageStepDefinitions:72 - the page title should be success: North American University
-2019-12-01 21:35:27,504 DEBUG [pool-1-thread-1] Ap2019-12-01 21:35:28,461  INFO [pool-1-thread-1] SubMenuListStepDefinitions:21 - Mouse hover over on to the Admission button
-2019-12-01 21:35:29,131  INFO [pool-1-thread-1] SubMenuListStepDefinitions:38 - Expected sub menu list: ----> [Undergraduate, Discover NAU, Degree Programs, Tuition and Fees, Scholarships, Internationa2019-12-01 21:36:28,599  INFO [pool-1-thread-1] Office365PageStepDefinitions:32 - user click on portal button
-2019-12-01 21:36:29,250  INFO [pool-1-thread-1] Office365PageStepDefinitions:56 - current window should be office:CDwindow-69234F7FB0D4AF3AC188B3B0486A3D59
-2019-12-01 21:36:29,291  INFO [pool-1-thread-1] Office365PageStepDefinitions:58 - all windows available[CDwindow-69234F7FB0D4AF3AC188B3B0486A3D59, CDwindow-B1C005F8B46002189CAC1D095D1D1CED]
-2019-12-01 21:36:29,291  INFO [pool-1-thread-1] Office365PageStepDefinitions:60 - switching to new window
-2019-12-01 21:36:29,294  INFO [pool-1-thread-1] Office365PageStepDefinitions:66 - current window is: CDwindow-69234F7FB0D4AF3AC188B3B0486A3D59
-2019-12-01 21:36:30,740  INFO [pool-1-thread-1] Office365PageStepDefinitions:66 - current window is: CDwindow-B1C005F8B46002189CAC1D095D1D1CED
-2019-12-01 21:36:31,015  INFO [pool-1-thread-1] Office365PageStepDefinitions:73 - entering username
-2019-12-01 21:36:36,565  INFO [pool-1-thread-1] Office365PageStepDefinitions:77 - entering password
-2019-12-01 21:36:39,631  INFO [pool-1-thread-1] Office365PageStepDefinitions:80 - clicking to sig in button
-2019-12-01 21:36:56,543  INFO [pool-1-thread-1] Office365PageStepDefinitions:41 - the url should be: https://www.office.com/?auth=2
-2019-12-01 21:36:56,543  INFO [pool-1-thread-1] Office365PageStepDefinitions:47 - clicking on Moodle NAU
-2019-12-01 21:36:58,686  INFO [pool-1-thread-1] Office365PageStepDefinitions:104 - current window should be moodle:CDwindow-B1C005F8B46002189CAC1D095D1D1CED
-2019-12-01 21:36:58,691  INFO [pool-1-thread-1] Office365PageStepDefinitions:106 - all windows available[CDwindow-69234F7FB0D4AF3AC188B3B0486A3D59, CDwindow-B1C005F8B46002189CAC1D095D1D1CED, CDwindow-4CDEACCF8D824CBECF72786306063E0E]
-2019-12-01 21:36:58,691  INFO [pool-1-thread-1] Office365PageStepDefinitions:108 - switching to new window
-2019-12-01 21:36:59,983  INFO [pool-1-thread-1] Office365PageStepDefinitions:116 - CDwindow-4CDEACCF8D824CBECF72786306063E0E
-2019-12-01 21:37:20,188  INFO [pool-1-thread-1] Office365PageStepDefinitions:119 - the current url ishttps://moodle.na.edu/my/
-2019-12-01 21:37:20,194  INFO [pool-1-thread-1] Hooks:27 - I am reporting the results
-2019-12-01 21:37:20,194  INFO [pool-1-thread-1] Hooks:37 - Closing driver
-2019-12-01 21:37:21,146  INFO [pool-1-thread-1] Hooks:19 - I am setting up the test from the Hooks class!!!
-2019-12-01 21:37:31,982  INFO [pool-1-thread-1] Office365PageStepDefinitions:32 - user click on portal button
-2019-12-01 21:37:32,340  INFO [pool-1-thread-1] Office365PageStepDefinitions:56 - current window should be office:CDwindow-9849B60E818FF9B77D1AAA88E95D5360
-2019-12-01 21:37:32,347  INFO [pool-1-thread-1] Office365PageStepDefinitions:58 - all windows available[CDwindow-9849B60E818FF9B77D1AAA88E95D5360, CDwindow-7AD8504C34DACAAACA40C934C5BAC4FE]
-2019-12-01 21:37:32,348  INFO [pool-1-thread-1] Office365PageStepDefinitions:60 - switching to new window
-2019-12-01 21:37:32,351  INFO [pool-1-thread-1] Office365PageStepDefinitions:66 - current window is: CDwindow-9849B60E818FF9B77D1AAA88E95D5360
-2019-12-01 21:37:33,467  INFO [pool-1-thread-1] Office365PageStepDefinitions:66 - current window is: CDwindow-7AD8504C34DACAAACA40C934C5BAC4FE
-2019-12-01 21:37:33,468  INFO [pool-1-thread-1] Office365PageStepDefinitions:88 - entering username
-2019-12-01 21:37:34,104  INFO [pool-1-thread-1] Office365PageStepDefinitions:92 - entering password
-2019-12-01 21:37:37,159  INFO [pool-1-thread-1] Office365PageStepDefinitions:95 - clicking to sig in button
-2019-12-01 21:37:41,245  INFO [pool-1-thread-1] Office365PageStepDefinitions:127 - the current url ishttps://login.microsoftonline.com/common/login
-2019-12-01 21:37:41,245  INFO [pool-1-thread-1] Hooks:27 - I am reporting the results
-2019-12-01 21:37:41,246  INFO [pool-1-thread-1] Hooks:37 - Closing driver
-SubMenuListStepDefinitions:60 - Academic Calendar
-2019-12-01 21:36:26,746  INFO [pool-1-thread-1] SubMenuListStepDefinitions:60 - Student Achievement
-2019-12-01 21:36:27,179  INFO [pool-1-thread-1] SubMenuListStepDefinitions:60 - Course Schedule
-2019-12-01 21:36:27,363  INFO [pool-1-thread-1] SubMenuListStepDefinitions:60 - Finals Schedule
-2019-12-01 21:36:27,462  INFO [pool-1-thread-1] Hooks:27 - I am reporting the results
-2019-12-01 21:36:27,462  INFO [pool-1-thread-1] Hooks:37 - Closing driver
-2019-12-01 21:36:28,866  INFO [pool-1-thread-1] Hooks:19 - I am setting up the test from the Hooks class!!!
-2019-12-01 21:36:51,473  INFO [pool-1-thread-1] SubMenuListStepDefinitions:66 - Mouse hover over on to the Faculty&Staff button
-2019-12-01 21:36:52,220  INFO [pool-1-thread-1] SubMenuListStepDefinitions:80 - Expected sub menu list: ----> [Office 365, Fees and Deposits, Password Reset, IT Services, Employee Center, Human Resources, Employee Forms, Faculty Members, Employee Handbook, News and Events, Headlines, Announcements, Calendar of Events, Student Workers]
-2019-12-01 21:36:52,378  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Office 365
-2019-12-01 21:36:52,524  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Fees and Deposits
-2019-12-01 21:36:52,590  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Password Reset
-2019-12-01 21:36:52,672  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - IT Services
-2019-12-01 21:36:52,743  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Employee Center
-2019-12-01 21:36:52,809  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Human Resources
-2019-12-01 21:36:53,039  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Employee Forms
-2019-12-01 21:36:53,178  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Faculty Members
-2019-12-01 21:36:53,373  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Employee Handbook
-2019-12-01 21:36:53,543  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - News and Events
-2019-12-01 21:36:53,642  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Headlines
-2019-12-01 21:36:53,730  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Announcements
-2019-12-01 21:36:53,906  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Calendar of Events
-2019-12-01 21:36:54,031  INFO [pool-1-thread-1] SubMenuListStepDefinitions:85 - Student Workers
-2019-12-01 21:36:54,032  INFO [pool-1-thread-1] SubMenuListStepDefinitions:88 - [Office 365, Fees and Deposits, Password Reset, IT Services, Employee Center, Human Resources, Employee Forms, Faculty Members, Employee Handbook, News and Events, Headlines, Announcements, Calendar of Events, Student Workers]
-2019-12-01 21:36:54,032  INFO [pool-1-thread-1] Hooks:27 - I am reporting the results
-2019-12-01 21:36:54,032  INFO [pool-1-thread-1] Hooks:37 - Closing driver
-2019-12-01 21:36:55,390  INFO [pool-1-thread-1] Hooks:19 - I am setting up the test from the Hooks class!!!
-2019-12-01 21:37:11,037  INFO [pool-1-thread-1] SubMenuListStepDefinitions:94 - Mouse hover over on to the Campus Life button
-2019-12-01 21:37:11,620  INFO [pool-1-thread-1] SubMenuListStepDefinitions:109 - Expected sub menu list: ----> [Student Services, Student Organizations, Calendar of Events, NAU Athletics, Health Services, Student Organizations, Residential Life, Housing, Dining at NAU, Resident’s Handbook, Fees and Deposits, Housing, Fees and Deposits, Parking & Security, Parking Enforcement, Campus Security, Emergency Guide, Campus Crime Report]
-2019-12-01 21:37:11,752  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Student Services
-2019-12-01 21:37:11,847  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Student Organizations
-2019-12-01 21:37:11,906  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Calendar of Events
-2019-12-01 21:37:12,003  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - NAU Athletics
-2019-12-01 21:37:12,189  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Health Services
-2019-12-01 21:37:12,274  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Residential Life
-2019-12-01 21:37:12,370  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Housing
-2019-12-01 21:37:12,448  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Dining at NAU
-2019-12-01 21:37:12,517  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Resident’s Handbook
-2019-12-01 21:37:12,605  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Fees and Deposits
-2019-12-01 21:37:12,736  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Parking & Security
-2019-12-01 21:37:12,839  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Parking Enforcement
-2019-12-01 21:37:12,990  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Campus Security
-2019-12-01 21:37:13,184  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Emergency Guide
-2019-12-01 21:37:13,286  INFO [pool-1-thread-1] SubMenuListStepDefinitions:113 - Campus Crime Report
-2019-12-01 21:37:13,286  INFO [pool-1-thread-1] Hooks:27 - I am reporting the results
-2019-12-01 21:37:13,287  INFO [pool-1-thread-1] Hooks:37 - Closing driver
-2019-12-01 21:37:13,456 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
-2019-12-01 21:37:13,456 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
-2019-12-01 21:37:13,457 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
-2019-12-01 21:37:13,457 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
-2019-12-01 21:37:13,459 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
-2019-12-01 21:37:13,461 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
-2019-12-01 21:37:14,647  INFO [pool-1-thread-1] Hooks:19 - I am setting up the test from the Hooks class!!!
-2019-12-01 21:37:25,852  INFO [pool-1-thread-1] SubMenuListStepDefinitions:119 - Mouse hover over on to the About button
-2019-12-01 21:37:26,177  INFO [pool-1-thread-1] SubMenuListStepDefinitions:132 - Expected sub menu list: ----> [Office of the President, Welcome Message, Board of Trustees, Accreditation, Brochures, Details, NAU History, About Houston, NAU Policies, Student Achievements]
-2019-12-01 21:37:26,454  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - Office of the President
-2019-12-01 21:37:26,536  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - Welcome Message
-2019-12-01 21:37:26,602  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - Board of Trustees
-2019-12-01 21:37:26,666  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - Accreditation
-2019-12-01 21:37:26,721  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - Brochures
-2019-12-01 21:37:26,803  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - Details
-2019-12-01 21:37:26,873  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - NAU History
-2019-12-01 21:37:26,939  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - About Houston
-2019-12-01 21:37:26,983  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - NAU Policies
-2019-12-01 21:37:27,036  INFO [pool-1-thread-1] SubMenuListStepDefinitions:136 - Student Achievements
-2019-12-01 21:37:27,037  INFO [pool-1-thread-1] Hooks:27 - I am reporting the results
-2019-12-01 21:37:27,037  INFO [pool-1-thread-1] Hooks:37 - Closing driver
+2019-12-04 18:24:12,740  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:24:14,128 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2019-12-04 18:24:14,141 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2019-12-04 18:24:14,143 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-12-04 18:24:14,171 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-12-04 18:24:14,174 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
+2019-12-04 18:24:14,228 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/151.101.48.133:443
+2019-12-04 18:24:14,229 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/151.101.48.133:443 with timeout 0
+2019-12-04 18:24:14,347 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-12-04 18:24:14,347 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-12-04 18:24:14,348 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2019-12-04 18:24:14,532 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2019-12-04 18:24:14,532 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2019-12-04 18:24:14,532 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2019-12-04 18:24:14,533 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2019-12-04 18:24:14,533 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2019-12-04 18:24:14,535 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2019-12-04 18:24:14,537 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.207:55163<->151.101.48.133:443
+2019-12-04 18:24:14,537 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2019-12-04 18:24:14,538 DEBUG [main] MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2019-12-04 18:24:14,538 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2019-12-04 18:24:14,539 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2019-12-04 18:24:14,541 DEBUG [main] headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2019-12-04 18:24:14,541 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2019-12-04 18:24:14,541 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2019-12-04 18:24:14,542 DEBUG [main] headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+2019-12-04 18:24:14,542 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-12-04 18:24:14,542 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2019-12-04 18:24:14,543 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2019-12-04 18:24:14,543 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2019-12-04 18:24:14,543 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2019-12-04 18:24:14,543 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-12-04 18:24:14,544 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2019-12-04 18:24:14,555 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-12-04 18:24:14,556 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2019-12-04 18:24:14,557 DEBUG [main] wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2019-12-04 18:24:14,557 DEBUG [main] wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2019-12-04 18:24:14,558 DEBUG [main] wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2019-12-04 18:24:14,558 DEBUG [main] wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2019-12-04 18:24:14,558 DEBUG [main] wire:73 - http-outgoing-0 << "ETag: W/"cc220cf00395b3223ce06a330d6d42326df4279d5315b997f161bb143dceadd1"[\r][\n]"
+2019-12-04 18:24:14,558 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2019-12-04 18:24:14,559 DEBUG [main] wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2019-12-04 18:24:14,559 DEBUG [main] wire:73 - http-outgoing-0 << "X-Geo-Block-List:[\r][\n]"
+2019-12-04 18:24:14,560 DEBUG [main] wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: F37C:1F82:71771A:896B5F:5DE84DAC[\r][\n]"
+2019-12-04 18:24:14,560 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-12-04 18:24:14,561 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 679[\r][\n]"
+2019-12-04 18:24:14,561 DEBUG [main] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2019-12-04 18:24:14,562 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Thu, 05 Dec 2019 00:24:13 GMT[\r][\n]"
+2019-12-04 18:24:14,562 DEBUG [main] wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2019-12-04 18:24:14,563 DEBUG [main] wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-12-04 18:24:14,563 DEBUG [main] wire:73 - http-outgoing-0 << "X-Served-By: cache-dfw18645-DFW[\r][\n]"
+2019-12-04 18:24:14,564 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+2019-12-04 18:24:14,564 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+2019-12-04 18:24:14,564 DEBUG [main] wire:73 - http-outgoing-0 << "X-Timer: S1575505454.863152,VS0,VE1[\r][\n]"
+2019-12-04 18:24:14,565 DEBUG [main] wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2019-12-04 18:24:14,565 DEBUG [main] wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-12-04 18:24:14,566 DEBUG [main] wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: 3fbcaf40c1ffd4b2ec5bbd8155b2ee6c536a60e3[\r][\n]"
+2019-12-04 18:24:14,567 DEBUG [main] wire:73 - http-outgoing-0 << "Expires: Thu, 05 Dec 2019 00:29:13 GMT[\r][\n]"
+2019-12-04 18:24:14,567 DEBUG [main] wire:73 - http-outgoing-0 << "Source-Age: 129[\r][\n]"
+2019-12-04 18:24:14,568 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
+2019-12-04 18:24:14,569 DEBUG [main] wire:87 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95]K[0x8f][0xdb] [0x10][0x80][0xef][0xf9][0x15]H{i[0xf][0xc1][0xbc][0xc]v$_[0xfa]<U=[0xb4][0xf7][0xca][0x89]I[0x82][0xd6]1[0x11][0xf6]n[0xda][0xfe][0xfa]2<[0xbc]l[0xd4]J=~[0x9f]a[0x98]0[0xc3][0xe4][0x1]}?[0x9b][0x19][0x1d][0xcd][0xa8][0xd1][0xc1]NKo[0xa6][0x19]-g[0x8d][0x1e]'{[0x9b][0xd0][0xb3]v[0xb3][0xb1]^[0x1d][0xad]C[0x83]3[0xc0][0xe8][0xcd][0xde]L[0xbd][0xfb][0xf5][0xd6]o[0xb8]\[0xfb][0xc5][0xec][0xfd][0xde][0x9b]Y[0xce]a[0xdf][0xc1]:[0xa7][0xe7][0xab][0x9d][0x6]3[0x9d][0xd0][0xde][0xd9][0xdb][0xac]][0x8e][0xb3][0xd9]<[0xa0]wQ[0xed][0xd0]gkO~[0xe7][0xfb][0xb3][0xb3][0x17][0x8d][0xb6][0xe8]C[0x8][0xbf]C[0x87] [0xe2]a~[0xfd]7[0xfb][0xe4][0xe]z[0x87][0xce][0xcb]r[0xdd]UU[0xf9][0x15][0x7]0O[0x17]l[0xdd][0xa9][0x1a]|[0xc2][0xa3][0xed][0x87]y[0x13][0xd7][0xa8][0xb6]S-&[0x98][0xb7][0xa2][0xc6]\f[0xdb]t[0xaa][0x9][0x96][0x8]LI[0x9d][0xb5][0xea][0x94][0x2][0xdd][0xc8][0x1a][0xb][0x92][0xad][0xec][0x94][0xc][0x96][0xb4][0x98][0xb2]5F[0xdd][0xa9][0x1a][0xb4]R[0x4][0xd3][0x97][0xd5][0xa2]S"h[0xd6][0xe2]u-[0xef][0x14][0x7])[0x1b][0x8e]e[0x93]-[0xeb][0x18][0x16][0xeb][0x1a][0xfa][0x8a][0x8]PNL[0xb6]@"S[0x3][0xc4]2) [0x9a]I[0x2][0xe5]dd[0xed][0x89][0xe7][0xf3][0xa4][0x0]R[0x99]8P>OB.|=[0xf]r[0xe1][0xeb]y[0x90][0xb][0xe7][0xaf][0xea][0xf6][0xc5][0xfe]6[0xe3][0xd8][0xa3]O[0xc6][0xe9][0xa3][0xfd]YT[0xee][0xa4][0xf][0x8f][0xf6][0xaf][0x85][0x9b]}[0xe5]N[0xbe]E[0x9e][0xf6][0xd8]7Mu[0x89]![0xaa]bC[0xe5][0xf4][0xa8][0xfb]Y[0xcf][0x9b]c[0x8c][0xeb]8[0xc1][0xcc][0xdf][0xfe]*[0x1a][0x10]u![0x14][0x8]Q[0x8]y/[0xea]{!@[0xf0]B[0xf0]{[0xc1]@[0xb0]BP[0x10][0xb4][0x10][0xe4]N[0xd4][0xed][0xbd]h[0xee][0x85][0xba][0x17]!SR[0x88]:[0x8b][0xf2][0xaa][0xbf]^[0xb5][0xeb][0x8b][0xb][0xb6][0xc0][0xff]s[0xc1]a[0xe1]l[0x8f][0xcb][0xad]w:R~+[0xf7][0xd7][0x1d]>[0xfa][0x8b]zy[0x15][0x8d]JR[0x14]o[0x82]2[0x92],/[0xdf][0x4]g[0xc9][0xb2][0xf2]I[0x90][0xbc]6[0xb5]r[0x80][0xba]-!5r[0x84][0xd4][0xc7][0x11]R[0x1b]GH][0x1c]!5q[0x84][0xd4][0xc3][0x11]R[0xb]G[0xa0][0xb1]g#[0x90][0x2][0x4]d[0x90]3[0x16][0x90][0x1]O[0xe7][0x8][0xc8][0x80][0xb5][0x9]d[0x84]WMo[0xe][0xce][0xc2][0x85][0xa2][0x8f][0xc3][0xa9][0x9c]V[0x97]Y{[0xf1][0xcf][0x9a][0xc][0xfa]Y[0x8f][0x10][0x15]_r[0x84]P =m[0x9f][0xe6]ju[[0x8]R-[0xd6][0x8e]su[0xd3][0xfb]T#[0xb4][0xdd][0xae][0x81][0xf4][0x84]o[0xe6][0xd1]\[0xf5]`[0xfa]0[0xee][0x80][0xaa]5[0xad][0x1f][0x90][0xd6][0x6][0xa2][0xac]c[0x8f]BW[0x7][0x93]F[0x1e][0x83]jF[0x93][0xa6][0x1d][0xe3][0xab]I[0x93][0x8e]6[0xeb][0xae]4[0xe4](o}c[0x6]%Dwuz[0xeb][0xff]"[0x96]~[0x1c][0xf5][0x10]%[0xeb]$[0xa6][0x8a][0xfa][0x99][0x11][0x90]v[0xbe]Y$k[0xdb][0x88][0xa4][0xf3]c[0xb6]&[0x92][0x7][0xe4]M[0xc7][0xfd][0xc4][0xe4]mD[0x6][0xe5][0xf5]C[0xb8][0x91][0x11]IG=2_[0xfd]?[0xb8][0x1][0xf1][0xe4][0x98][0x6][0x0][0x0]"
+2019-12-04 18:24:14,575 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-12-04 18:24:14,576 DEBUG [main] headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2019-12-04 18:24:14,576 DEBUG [main] headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2019-12-04 18:24:14,577 DEBUG [main] headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2019-12-04 18:24:14,577 DEBUG [main] headers:125 - http-outgoing-0 << X-Frame-Options: deny
+2019-12-04 18:24:14,578 DEBUG [main] headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2019-12-04 18:24:14,579 DEBUG [main] headers:125 - http-outgoing-0 << ETag: W/"cc220cf00395b3223ce06a330d6d42326df4279d5315b997f161bb143dceadd1"
+2019-12-04 18:24:14,579 DEBUG [main] headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2019-12-04 18:24:14,580 DEBUG [main] headers:125 - http-outgoing-0 << Cache-Control: max-age=300
+2019-12-04 18:24:14,580 DEBUG [main] headers:125 - http-outgoing-0 << X-Geo-Block-List:
+2019-12-04 18:24:14,580 DEBUG [main] headers:125 - http-outgoing-0 << X-GitHub-Request-Id: F37C:1F82:71771A:896B5F:5DE84DAC
+2019-12-04 18:24:14,581 DEBUG [main] headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2019-12-04 18:24:14,581 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 679
+2019-12-04 18:24:14,581 DEBUG [main] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2019-12-04 18:24:14,581 DEBUG [main] headers:125 - http-outgoing-0 << Date: Thu, 05 Dec 2019 00:24:13 GMT
+2019-12-04 18:24:14,582 DEBUG [main] headers:125 - http-outgoing-0 << Via: 1.1 varnish
+2019-12-04 18:24:14,582 DEBUG [main] headers:125 - http-outgoing-0 << Connection: keep-alive
+2019-12-04 18:24:14,582 DEBUG [main] headers:125 - http-outgoing-0 << X-Served-By: cache-dfw18645-DFW
+2019-12-04 18:24:14,585 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache: HIT
+2019-12-04 18:24:14,585 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache-Hits: 1
+2019-12-04 18:24:14,586 DEBUG [main] headers:125 - http-outgoing-0 << X-Timer: S1575505454.863152,VS0,VE1
+2019-12-04 18:24:14,587 DEBUG [main] headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+2019-12-04 18:24:14,588 DEBUG [main] headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-12-04 18:24:14,589 DEBUG [main] headers:125 - http-outgoing-0 << X-Fastly-Request-ID: 3fbcaf40c1ffd4b2ec5bbd8155b2ee6c536a60e3
+2019-12-04 18:24:14,590 DEBUG [main] headers:125 - http-outgoing-0 << Expires: Thu, 05 Dec 2019 00:29:13 GMT
+2019-12-04 18:24:14,591 DEBUG [main] headers:125 - http-outgoing-0 << Source-Age: 129
+2019-12-04 18:24:14,598 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2019-12-04 18:24:14,610 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2019-12-04 18:24:14,610 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2019-12-04 18:24:14,613 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-12-04 18:24:29,804  INFO [main] ApplyPageStepDefinitions:20 - Getting current window
+2019-12-04 18:24:29,822  INFO [main] ApplyPageStepDefinitions:22 - CDwindow-D71B83620A78EB36992ED21AAFFA32A4
+2019-12-04 18:24:29,823  INFO [main] ApplyPageStepDefinitions:24 - Clicking on to Apply button
+2019-12-04 18:24:30,444  INFO [main] ApplyPageStepDefinitions:29 - CDwindow-D71B83620A78EB36992ED21AAFFA32A4
+2019-12-04 18:24:30,444  INFO [main] ApplyPageStepDefinitions:29 - CDwindow-D71D475E7DA9A71589CB9F757F1CE282
+2019-12-04 18:24:33,426  INFO [main] ApplyPageStepDefinitions:40 - the page title should be: Apply North American University
+2019-12-04 18:24:33,426  INFO [main] ApplyPageStepDefinitions:46 - Clicking Apply button
+2019-12-04 18:24:33,487  WARN [main] ApplyPageStepDefinitions:47 - true
+2019-12-04 18:24:35,090  INFO [main] ApplyPageStepDefinitions:56 - the page title should be sign up: North American University
+2019-12-04 18:24:35,090  INFO [main] ApplyPageStepDefinitions:62 - Entering info for applying
+2019-12-04 18:24:36,166  INFO [main] ApplyPageStepDefinitions:70 - Getting page title
+2019-12-04 18:24:36,180  INFO [main] ApplyPageStepDefinitions:72 - the page title should be success: North American University
+2019-12-04 18:24:36,180 DEBUG [main] ApplyPageStepDefinitions:73 - North American University
+2019-12-04 18:24:36,180  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:24:36,181  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:24:37,638  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:24:48,803  INFO [main] MainPageStepDefinitions:17 - Checking logo text
+2019-12-04 18:24:48,804  INFO [main] MainPageStepDefinitions:18 - Expected logo text --->North American University
+2019-12-04 18:24:49,010  INFO [main] MainPageStepDefinitions:22 - Actual Logo Text ---->North American University
+2019-12-04 18:24:49,019  INFO [main] MainPageStepDefinitions:28 - Expected header menu list ----> [Request Info, Apply Now, Athletics, 365 Portal]
+2019-12-04 18:24:49,121  INFO [main] MainPageStepDefinitions:32 - Request Info
+2019-12-04 18:24:49,158  INFO [main] MainPageStepDefinitions:32 - Apply Now
+2019-12-04 18:24:49,193  INFO [main] MainPageStepDefinitions:32 - Athletics
+2019-12-04 18:24:49,241  INFO [main] MainPageStepDefinitions:32 - 365 Portal
+2019-12-04 18:24:49,263  INFO [main] MainPageStepDefinitions:42 - expected main menu items are: [Admissions, Academics, Faculty & Staff, Campus Life, Students, About NAU]
+2019-12-04 18:24:49,265  INFO [main] MainPageStepDefinitions:44 - actual main menu items are: 
+2019-12-04 18:24:49,393 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:24:49,393 DEBUG [Finalizer] DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2019-12-04 18:24:49,393 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:24:49,621  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:24:49,622  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:24:50,743  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:25:02,289  INFO [main] Office365PageStepDefinitions:32 - user click on portal button
+2019-12-04 18:25:02,957  INFO [main] Office365PageStepDefinitions:56 - current window should be office:CDwindow-03899181FACE8F08890A8973F2998738
+2019-12-04 18:25:02,976  INFO [main] Office365PageStepDefinitions:58 - all windows available[CDwindow-03899181FACE8F08890A8973F2998738, CDwindow-151A3D34136D48E708B678A263EB06E9]
+2019-12-04 18:25:02,976  INFO [main] Office365PageStepDefinitions:60 - switching to new window
+2019-12-04 18:25:02,980  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-03899181FACE8F08890A8973F2998738
+2019-12-04 18:25:05,979  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-151A3D34136D48E708B678A263EB06E9
+2019-12-04 18:25:05,998  INFO [main] Office365PageStepDefinitions:73 - entering username
+2019-12-04 18:25:10,203  INFO [main] Office365PageStepDefinitions:77 - entering password
+2019-12-04 18:25:10,376  INFO [main] Office365PageStepDefinitions:82 - clicking to sign in button
+2019-12-04 18:25:18,439  INFO [main] Office365PageStepDefinitions:41 - the url should be: https://www.office.com/?auth=2
+2019-12-04 18:25:18,439  INFO [main] Office365PageStepDefinitions:47 - clicking on Moodle NAU
+2019-12-04 18:25:18,691  INFO [main] Office365PageStepDefinitions:106 - current window should be moodle:CDwindow-151A3D34136D48E708B678A263EB06E9
+2019-12-04 18:25:18,707  INFO [main] Office365PageStepDefinitions:108 - all windows available[CDwindow-03899181FACE8F08890A8973F2998738, CDwindow-151A3D34136D48E708B678A263EB06E9, CDwindow-DA2BB8EEF40B87BA0269A8577173776F]
+2019-12-04 18:25:18,708  INFO [main] Office365PageStepDefinitions:110 - switching to new window
+2019-12-04 18:25:29,947  INFO [main] Office365PageStepDefinitions:120 - CDwindow-DA2BB8EEF40B87BA0269A8577173776F
+2019-12-04 18:25:29,952  INFO [main] Office365PageStepDefinitions:123 - the current url ishttps://moodle.na.edu/my/
+2019-12-04 18:25:30,045  INFO [main] MoodlePageStepDefinitions:32 - username is --->Annamurat Gundogdyyev
+2019-12-04 18:25:30,045  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:25:30,045  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:25:31,237  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:25:43,375  INFO [main] Office365PageStepDefinitions:32 - user click on portal button
+2019-12-04 18:25:43,860  INFO [main] Office365PageStepDefinitions:56 - current window should be office:CDwindow-B68B30892154A1DE7622C2B082773D44
+2019-12-04 18:25:43,884  INFO [main] Office365PageStepDefinitions:58 - all windows available[CDwindow-B68B30892154A1DE7622C2B082773D44, CDwindow-2B98E3AAEBDD04EDED1CBF29E6C4264F]
+2019-12-04 18:25:43,884  INFO [main] Office365PageStepDefinitions:60 - switching to new window
+2019-12-04 18:25:43,888  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-B68B30892154A1DE7622C2B082773D44
+2019-12-04 18:25:45,014  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-2B98E3AAEBDD04EDED1CBF29E6C4264F
+2019-12-04 18:25:45,015  INFO [main] Office365PageStepDefinitions:73 - entering username
+2019-12-04 18:25:49,903  INFO [main] Office365PageStepDefinitions:77 - entering password
+2019-12-04 18:25:50,311  INFO [main] Office365PageStepDefinitions:82 - clicking to sign in button
+2019-12-04 18:26:00,122  INFO [main] Office365PageStepDefinitions:41 - the url should be: https://www.office.com/?auth=2
+2019-12-04 18:26:00,122  INFO [main] Office365PageStepDefinitions:47 - clicking on Moodle NAU
+2019-12-04 18:26:00,977  INFO [main] Office365PageStepDefinitions:106 - current window should be moodle:CDwindow-2B98E3AAEBDD04EDED1CBF29E6C4264F
+2019-12-04 18:26:00,986  INFO [main] Office365PageStepDefinitions:108 - all windows available[CDwindow-B68B30892154A1DE7622C2B082773D44, CDwindow-2B98E3AAEBDD04EDED1CBF29E6C4264F, CDwindow-496F0FA0B0213F599770502F526AB654]
+2019-12-04 18:26:00,986  INFO [main] Office365PageStepDefinitions:110 - switching to new window
+2019-12-04 18:26:12,143  INFO [main] Office365PageStepDefinitions:120 - CDwindow-496F0FA0B0213F599770502F526AB654
+2019-12-04 18:26:12,155  INFO [main] Office365PageStepDefinitions:123 - the current url ishttps://moodle.na.edu/my/
+2019-12-04 18:26:13,816  INFO [main] MoodlePageStepDefinitions:43 - actual course names: [COMP 5328.Computer Architecture.2019FLL.s1, COMP 5351.Network Administration.2019FLL.s1, COMP 5393.Capstone Project.2019FLL.s1, Online Program Student Orientation, Software Testing Verification and Validation-EXAM]
+2019-12-04 18:26:13,817  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:26:13,817  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:26:15,150  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:26:15,164 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:26:15,165 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:26:30,524  INFO [main] Office365PageStepDefinitions:32 - user click on portal button
+2019-12-04 18:26:31,459  INFO [main] Office365PageStepDefinitions:56 - current window should be office:CDwindow-F1BAA3692933C488AA3335E04BB9D446
+2019-12-04 18:26:31,485  INFO [main] Office365PageStepDefinitions:58 - all windows available[CDwindow-F1BAA3692933C488AA3335E04BB9D446, CDwindow-A7A7D0708ACB3E2CE59526A0E5300EC4]
+2019-12-04 18:26:31,485  INFO [main] Office365PageStepDefinitions:60 - switching to new window
+2019-12-04 18:26:31,488  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-F1BAA3692933C488AA3335E04BB9D446
+2019-12-04 18:26:33,351  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-A7A7D0708ACB3E2CE59526A0E5300EC4
+2019-12-04 18:26:33,352  INFO [main] Office365PageStepDefinitions:73 - entering username
+2019-12-04 18:26:37,527  INFO [main] Office365PageStepDefinitions:77 - entering password
+2019-12-04 18:26:37,681  INFO [main] Office365PageStepDefinitions:82 - clicking to sign in button
+2019-12-04 18:26:46,623  INFO [main] Office365PageStepDefinitions:41 - the url should be: https://www.office.com/?auth=2
+2019-12-04 18:26:46,624  INFO [main] Office365PageStepDefinitions:47 - clicking on Moodle NAU
+2019-12-04 18:26:47,443  INFO [main] Office365PageStepDefinitions:106 - current window should be moodle:CDwindow-A7A7D0708ACB3E2CE59526A0E5300EC4
+2019-12-04 18:26:47,473  INFO [main] Office365PageStepDefinitions:108 - all windows available[CDwindow-F1BAA3692933C488AA3335E04BB9D446, CDwindow-A7A7D0708ACB3E2CE59526A0E5300EC4, CDwindow-772CCA66626EFC5877E43D4B01BFA27D]
+2019-12-04 18:26:47,473  INFO [main] Office365PageStepDefinitions:110 - switching to new window
+2019-12-04 18:26:56,795  INFO [main] Office365PageStepDefinitions:120 - CDwindow-772CCA66626EFC5877E43D4B01BFA27D
+2019-12-04 18:26:56,878  INFO [main] Office365PageStepDefinitions:123 - the current url ishttps://moodle.na.edu/my/
+2019-12-04 18:26:57,438  INFO [main] MoodlePageStepDefinitions:53 - the upcoming events are: [Qz5 closes=Today, 7:05 PM]
+2019-12-04 18:26:57,438  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:26:57,439  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:26:59,824  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:27:15,715  INFO [main] Office365PageStepDefinitions:32 - user click on portal button
+2019-12-04 18:27:16,590  INFO [main] Office365PageStepDefinitions:56 - current window should be office:CDwindow-E6FB72373CD74EE41ACC225586D6B93C
+2019-12-04 18:27:16,601  INFO [main] Office365PageStepDefinitions:58 - all windows available[CDwindow-E6FB72373CD74EE41ACC225586D6B93C, CDwindow-7D1C95098553BA7ED3B3A6F6E5798DF3]
+2019-12-04 18:27:16,601  INFO [main] Office365PageStepDefinitions:60 - switching to new window
+2019-12-04 18:27:16,645  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-E6FB72373CD74EE41ACC225586D6B93C
+2019-12-04 18:27:18,512  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-7D1C95098553BA7ED3B3A6F6E5798DF3
+2019-12-04 18:27:18,513  INFO [main] Office365PageStepDefinitions:73 - entering username
+2019-12-04 18:27:22,096  INFO [main] Office365PageStepDefinitions:77 - entering password
+2019-12-04 18:27:22,321  INFO [main] Office365PageStepDefinitions:82 - clicking to sign in button
+2019-12-04 18:27:31,056  INFO [main] Office365PageStepDefinitions:41 - the url should be: https://www.office.com/?auth=2
+2019-12-04 18:27:31,056  INFO [main] Office365PageStepDefinitions:47 - clicking on Moodle NAU
+2019-12-04 18:27:32,400  INFO [main] Office365PageStepDefinitions:106 - current window should be moodle:CDwindow-7D1C95098553BA7ED3B3A6F6E5798DF3
+2019-12-04 18:27:32,441  INFO [main] Office365PageStepDefinitions:108 - all windows available[CDwindow-E6FB72373CD74EE41ACC225586D6B93C, CDwindow-7D1C95098553BA7ED3B3A6F6E5798DF3, CDwindow-6C9C3C7DE194D02CF9F8C5E1B805BD13]
+2019-12-04 18:27:32,442  INFO [main] Office365PageStepDefinitions:110 - switching to new window
+2019-12-04 18:27:41,573  INFO [main] Office365PageStepDefinitions:120 - CDwindow-6C9C3C7DE194D02CF9F8C5E1B805BD13
+2019-12-04 18:27:41,605  INFO [main] Office365PageStepDefinitions:123 - the current url ishttps://moodle.na.edu/my/
+2019-12-04 18:27:45,022  INFO [main] MoodlePageStepDefinitions:61 - the list of my courses under my courses dropdown
+2019-12-04 18:27:45,066  INFO [main] MoodlePageStepDefinitions:63 - COMP 5328.Computer Architecture.2019FLL.s1
+2019-12-04 18:27:45,079  INFO [main] MoodlePageStepDefinitions:63 - COMP 5393.Capstone Project.2019FLL.s1
+2019-12-04 18:27:45,093  INFO [main] MoodlePageStepDefinitions:63 - COMP 5351.Network Administration.2019FLL.s1
+2019-12-04 18:27:45,112  INFO [main] MoodlePageStepDefinitions:63 - Online Program Student Orientation
+2019-12-04 18:27:45,133  INFO [main] MoodlePageStepDefinitions:63 - Software Testing Verification and Validation-EXAM
+2019-12-04 18:27:45,133  INFO [main] MoodlePageStepDefinitions:70 - clicking a random course
+2019-12-04 18:27:47,534  INFO [main] MoodlePageStepDefinitions:76 - expected course name is: COMP 5393.Capstone Project.2019FLL.s1
+2019-12-04 18:27:47,606  INFO [main] MoodlePageStepDefinitions:77 - actual course name is: COMP 5393.Capstone Project.2019FLL.s1
+2019-12-04 18:27:47,639  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:27:47,639  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:27:49,248  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:28:04,152  INFO [main] Office365PageStepDefinitions:32 - user click on portal button
+2019-12-04 18:28:04,823  INFO [main] Office365PageStepDefinitions:56 - current window should be office:CDwindow-591E96D68F20C4475A523A9F4B1A23B3
+2019-12-04 18:28:04,839  INFO [main] Office365PageStepDefinitions:58 - all windows available[CDwindow-591E96D68F20C4475A523A9F4B1A23B3, CDwindow-6CA9C57EC3D425B937D383AEEB26486C]
+2019-12-04 18:28:04,840  INFO [main] Office365PageStepDefinitions:60 - switching to new window
+2019-12-04 18:28:04,844  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-591E96D68F20C4475A523A9F4B1A23B3
+2019-12-04 18:28:06,104  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-6CA9C57EC3D425B937D383AEEB26486C
+2019-12-04 18:28:06,105  INFO [main] Office365PageStepDefinitions:73 - entering username
+2019-12-04 18:28:11,489  INFO [main] Office365PageStepDefinitions:77 - entering password
+2019-12-04 18:28:11,812 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:28:11,812 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:28:11,815 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:28:11,815 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:28:11,816 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:28:11,816 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:28:11,920  INFO [main] Office365PageStepDefinitions:82 - clicking to sign in button
+2019-12-04 18:28:19,929  INFO [main] Office365PageStepDefinitions:41 - the url should be: https://www.office.com/?auth=2
+2019-12-04 18:28:19,931  INFO [main] Office365PageStepDefinitions:47 - clicking on Moodle NAU
+2019-12-04 18:28:23,854  INFO [main] Office365PageStepDefinitions:106 - current window should be moodle:CDwindow-6CA9C57EC3D425B937D383AEEB26486C
+2019-12-04 18:28:23,868  INFO [main] Office365PageStepDefinitions:108 - all windows available[CDwindow-591E96D68F20C4475A523A9F4B1A23B3, CDwindow-6CA9C57EC3D425B937D383AEEB26486C, CDwindow-9D7F93FE9850BA6C8409E479D6B623CD]
+2019-12-04 18:28:23,870  INFO [main] Office365PageStepDefinitions:110 - switching to new window
+2019-12-04 18:28:33,491  INFO [main] Office365PageStepDefinitions:120 - CDwindow-9D7F93FE9850BA6C8409E479D6B623CD
+2019-12-04 18:28:33,528  INFO [main] Office365PageStepDefinitions:123 - the current url ishttps://moodle.na.edu/my/
+2019-12-04 18:28:33,851  INFO [main] Office365PageStepDefinitions:146 - [Upcoming events, Navigation, Online users, Activities, Timeline]
+2019-12-04 18:28:33,852  INFO [main] Office365PageStepDefinitions:147 - [Upcoming events, Navigation, Online users, Activities, Timeline]
+2019-12-04 18:28:33,852  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:28:33,852  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:28:35,105  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:28:52,528  INFO [main] Office365PageStepDefinitions:32 - user click on portal button
+2019-12-04 18:28:53,247  INFO [main] Office365PageStepDefinitions:56 - current window should be office:CDwindow-AAC030C5CF2A47D7E6120AD29C8B8597
+2019-12-04 18:28:53,307  INFO [main] Office365PageStepDefinitions:58 - all windows available[CDwindow-AAC030C5CF2A47D7E6120AD29C8B8597, CDwindow-9956A0B53EA29AD2B68E3C1B7AFB64DE]
+2019-12-04 18:28:53,307  INFO [main] Office365PageStepDefinitions:60 - switching to new window
+2019-12-04 18:28:53,322  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-AAC030C5CF2A47D7E6120AD29C8B8597
+2019-12-04 18:28:55,164  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-9956A0B53EA29AD2B68E3C1B7AFB64DE
+2019-12-04 18:28:55,164  INFO [main] Office365PageStepDefinitions:73 - entering username
+2019-12-04 18:28:58,948  INFO [main] Office365PageStepDefinitions:77 - entering password
+2019-12-04 18:28:59,164  INFO [main] Office365PageStepDefinitions:82 - clicking to sign in button
+2019-12-04 18:29:04,730  INFO [main] Office365PageStepDefinitions:41 - the url should be: https://www.office.com/?auth=2
+2019-12-04 18:29:04,730  INFO [main] Office365PageStepDefinitions:47 - clicking on Moodle NAU
+2019-12-04 18:29:08,054  INFO [main] Office365PageStepDefinitions:106 - current window should be moodle:CDwindow-9956A0B53EA29AD2B68E3C1B7AFB64DE
+2019-12-04 18:29:08,062  INFO [main] Office365PageStepDefinitions:108 - all windows available[CDwindow-AAC030C5CF2A47D7E6120AD29C8B8597, CDwindow-9956A0B53EA29AD2B68E3C1B7AFB64DE, CDwindow-D9D33DA8565F3E6BA663CE1F823CEA6C]
+2019-12-04 18:29:08,062  INFO [main] Office365PageStepDefinitions:110 - switching to new window
+2019-12-04 18:29:18,336  INFO [main] Office365PageStepDefinitions:120 - CDwindow-D9D33DA8565F3E6BA663CE1F823CEA6C
+2019-12-04 18:29:18,344  INFO [main] Office365PageStepDefinitions:123 - the current url ishttps://moodle.na.edu/my/
+2019-12-04 18:29:18,344  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:29:18,344  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:29:19,778  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:29:43,000  INFO [main] Office365PageStepDefinitions:32 - user click on portal button
+2019-12-04 18:29:43,820  INFO [main] Office365PageStepDefinitions:56 - current window should be office:CDwindow-AABBE06E50B9C2FB596A5860A2AA367D
+2019-12-04 18:29:43,847  INFO [main] Office365PageStepDefinitions:58 - all windows available[CDwindow-AABBE06E50B9C2FB596A5860A2AA367D, CDwindow-558AE27B31167F16D8FFF163A2FB9C7D]
+2019-12-04 18:29:43,847  INFO [main] Office365PageStepDefinitions:60 - switching to new window
+2019-12-04 18:29:43,852  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-AABBE06E50B9C2FB596A5860A2AA367D
+2019-12-04 18:29:45,606  INFO [main] Office365PageStepDefinitions:66 - current window is: CDwindow-558AE27B31167F16D8FFF163A2FB9C7D
+2019-12-04 18:29:45,606  INFO [main] Office365PageStepDefinitions:90 - entering username
+2019-12-04 18:29:46,202  INFO [main] Office365PageStepDefinitions:94 - entering password
+2019-12-04 18:29:49,298  INFO [main] Office365PageStepDefinitions:97 - clicking to sig in button
+2019-12-04 18:29:52,304  INFO [main] Office365PageStepDefinitions:131 - the current url ishttps://login.microsoftonline.com/common/oauth2/authorize?client_id=4345a7b9-9a63-4910-a426-35363201d503&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3d2GASgdXisndbOYifvXz6zBYNWrHKHOmV_003qDxJ9mpscKzCvsuLHxoF78Ovv46WNnA9oWKuJ1X-dRNY135l9DFtOwStH2O7pQoIN5t3TzKgsN38GzbVBIeyJbv4gk90&nonce=637111025832495836.ZTMzNWE1MjItYmJkNC00YmViLTkyYTQtZGQ3MjY4NzlmNDE5NDVmMmQ4NjYtZDYzNy00YWExLTkwNjQtYjk3M2EzMTMzMzU0&redirect_uri=https%3a%2f%2fwww.office.com%2f&ui_locales=en-US&mkt=en-US&sso_reload=true
+2019-12-04 18:29:52,305  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:29:52,305  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:29:53,501  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:29:53,711 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:29:53,712 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:29:53,713 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:29:53,714 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:29:53,716 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:29:53,716 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:30:07,490  INFO [main] SubMenuListStepDefinitions:21 - Mouse hover over on to the Admission button
+2019-12-04 18:30:08,490  INFO [main] SubMenuListStepDefinitions:38 - Expected sub menu list: ----> [Undergraduate, Discover NAU, Degree Programs, Tuition and Fees, Scholarships, International, Graduate, Apply Now, Graduate Degrees, Distance Education, International, Gulf Language School, GLS Admissions, GLS Programs, GLS Students, GLS Faculty]
+2019-12-04 18:30:08,604  INFO [main] SubMenuListStepDefinitions:40 - Graduate
+2019-12-04 18:30:08,685  INFO [main] SubMenuListStepDefinitions:40 - Apply Now
+2019-12-04 18:30:08,800  INFO [main] SubMenuListStepDefinitions:40 - Graduate Degrees
+2019-12-04 18:30:08,889  INFO [main] SubMenuListStepDefinitions:40 - Tuition and Fees
+2019-12-04 18:30:08,968  INFO [main] SubMenuListStepDefinitions:40 - Distance Education
+2019-12-04 18:30:09,204  INFO [main] SubMenuListStepDefinitions:40 - International
+2019-12-04 18:30:09,382  INFO [main] SubMenuListStepDefinitions:40 - Undergraduate
+2019-12-04 18:30:09,675  INFO [main] SubMenuListStepDefinitions:40 - Discover NAU
+2019-12-04 18:30:09,995  INFO [main] SubMenuListStepDefinitions:40 - Degree Programs
+2019-12-04 18:30:10,094  INFO [main] SubMenuListStepDefinitions:40 - Tuition and Fees
+2019-12-04 18:30:10,201  INFO [main] SubMenuListStepDefinitions:40 - Scholarships
+2019-12-04 18:30:10,344  INFO [main] SubMenuListStepDefinitions:40 - International
+2019-12-04 18:30:10,458  INFO [main] SubMenuListStepDefinitions:40 - Gulf Language School
+2019-12-04 18:30:10,547  INFO [main] SubMenuListStepDefinitions:40 - Apply Now
+2019-12-04 18:30:10,618  INFO [main] SubMenuListStepDefinitions:40 - GLS Admissions
+2019-12-04 18:30:10,699  INFO [main] SubMenuListStepDefinitions:40 - GLS Programs
+2019-12-04 18:30:10,777  INFO [main] SubMenuListStepDefinitions:40 - GLS Students
+2019-12-04 18:30:10,864  INFO [main] SubMenuListStepDefinitions:40 - GLS Faculty
+2019-12-04 18:30:11,035  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:30:11,036  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:30:12,398  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:30:28,412  INFO [main] SubMenuListStepDefinitions:47 - Mouse hover over on to the Academics button
+2019-12-04 18:30:28,898  INFO [main] SubMenuListStepDefinitions:58 - Expected sub menu list: ----> [Academics, Undergraduate Programs, Graduate Programs, GLS Programs, Distance Education, Educator Certification, Certificate Programs, Academic Resources, Academic Clubs, NAU Library, Faculty Members, Brochures, Academic Catalog, Academic Calendar, Student Achievement, Course Schedule, Finals Schedule]
+2019-12-04 18:30:28,994  INFO [main] SubMenuListStepDefinitions:60 - Academics
+2019-12-04 18:30:29,075  INFO [main] SubMenuListStepDefinitions:60 - Undergraduate Programs
+2019-12-04 18:30:29,243  INFO [main] SubMenuListStepDefinitions:60 - Graduate Programs
+2019-12-04 18:30:29,322  INFO [main] SubMenuListStepDefinitions:60 - Distance Education
+2019-12-04 18:30:29,411  INFO [main] SubMenuListStepDefinitions:60 - Educator Certification
+2019-12-04 18:30:29,541  INFO [main] SubMenuListStepDefinitions:60 - Certificate Programs
+2019-12-04 18:30:29,687  INFO [main] SubMenuListStepDefinitions:60 - Academic Resources
+2019-12-04 18:30:29,819  INFO [main] SubMenuListStepDefinitions:60 - Academic Clubs
+2019-12-04 18:30:29,979  INFO [main] SubMenuListStepDefinitions:60 - NAU Library
+2019-12-04 18:30:30,125  INFO [main] SubMenuListStepDefinitions:60 - Faculty Members
+2019-12-04 18:30:30,209  INFO [main] SubMenuListStepDefinitions:60 - Brochures
+2019-12-04 18:30:30,282  INFO [main] SubMenuListStepDefinitions:60 - Academic Catalog
+2019-12-04 18:30:30,405  INFO [main] SubMenuListStepDefinitions:60 - Academic Calendar
+2019-12-04 18:30:30,588  INFO [main] SubMenuListStepDefinitions:60 - Student Achievement
+2019-12-04 18:30:30,741  INFO [main] SubMenuListStepDefinitions:60 - Course Schedule
+2019-12-04 18:30:30,875  INFO [main] SubMenuListStepDefinitions:60 - Finals Schedule
+2019-12-04 18:30:30,958  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:30:30,958  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:30:32,985  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:30:45,943  INFO [main] SubMenuListStepDefinitions:66 - Mouse hover over on to the Faculty&Staff button
+2019-12-04 18:30:46,826  INFO [main] SubMenuListStepDefinitions:80 - Expected sub menu list: ----> [Office 365, Fees and Deposits, Password Reset, IT Services, Employee Center, Human Resources, Employee Forms, Faculty Members, Employee Handbook, News and Events, Headlines, Announcements, Calendar of Events, Student Workers]
+2019-12-04 18:30:46,920  INFO [main] SubMenuListStepDefinitions:85 - Office 365
+2019-12-04 18:30:47,042  INFO [main] SubMenuListStepDefinitions:85 - Fees and Deposits
+2019-12-04 18:30:47,166  INFO [main] SubMenuListStepDefinitions:85 - Password Reset
+2019-12-04 18:30:47,284  INFO [main] SubMenuListStepDefinitions:85 - IT Services
+2019-12-04 18:30:47,450  INFO [main] SubMenuListStepDefinitions:85 - Employee Center
+2019-12-04 18:30:47,539  INFO [main] SubMenuListStepDefinitions:85 - Human Resources
+2019-12-04 18:30:47,607  INFO [main] SubMenuListStepDefinitions:85 - Employee Forms
+2019-12-04 18:30:47,717  INFO [main] SubMenuListStepDefinitions:85 - Faculty Members
+2019-12-04 18:30:47,839  INFO [main] SubMenuListStepDefinitions:85 - Employee Handbook
+2019-12-04 18:30:47,980  INFO [main] SubMenuListStepDefinitions:85 - News and Events
+2019-12-04 18:30:48,241  INFO [main] SubMenuListStepDefinitions:85 - Headlines
+2019-12-04 18:30:48,340  INFO [main] SubMenuListStepDefinitions:85 - Announcements
+2019-12-04 18:30:48,484  INFO [main] SubMenuListStepDefinitions:85 - Calendar of Events
+2019-12-04 18:30:48,661  INFO [main] SubMenuListStepDefinitions:85 - Student Workers
+2019-12-04 18:30:48,661  INFO [main] SubMenuListStepDefinitions:88 - [Office 365, Fees and Deposits, Password Reset, IT Services, Employee Center, Human Resources, Employee Forms, Faculty Members, Employee Handbook, News and Events, Headlines, Announcements, Calendar of Events, Student Workers]
+2019-12-04 18:30:48,663  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:30:48,663  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:30:49,771  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:31:05,910  INFO [main] SubMenuListStepDefinitions:94 - Mouse hover over on to the Campus Life button
+2019-12-04 18:31:06,684  INFO [main] SubMenuListStepDefinitions:109 - Expected sub menu list: ----> [Student Services, Student Organizations, Calendar of Events, NAU Athletics, Health Services, Student Organizations, Residential Life, Housing, Dining at NAU, Resident’s Handbook, Fees and Deposits, Housing, Fees and Deposits, Parking & Security, Parking Enforcement, Campus Security, Emergency Guide, Campus Crime Report]
+2019-12-04 18:31:06,869  INFO [main] SubMenuListStepDefinitions:113 - Student Services
+2019-12-04 18:31:07,104  INFO [main] SubMenuListStepDefinitions:113 - Student Organizations
+2019-12-04 18:31:07,218  INFO [main] SubMenuListStepDefinitions:113 - Calendar of Events
+2019-12-04 18:31:07,307  INFO [main] SubMenuListStepDefinitions:113 - NAU Athletics
+2019-12-04 18:31:07,385  INFO [main] SubMenuListStepDefinitions:113 - Health Services
+2019-12-04 18:31:07,504  INFO [main] SubMenuListStepDefinitions:113 - Residential Life
+2019-12-04 18:31:07,653  INFO [main] SubMenuListStepDefinitions:113 - Housing
+2019-12-04 18:31:07,855  INFO [main] SubMenuListStepDefinitions:113 - Dining at NAU
+2019-12-04 18:31:07,965  INFO [main] SubMenuListStepDefinitions:113 - Resident’s Handbook
+2019-12-04 18:31:08,403  INFO [main] SubMenuListStepDefinitions:113 - Fees and Deposits
+2019-12-04 18:31:08,567  INFO [main] SubMenuListStepDefinitions:113 - Parking & Security
+2019-12-04 18:31:08,652  INFO [main] SubMenuListStepDefinitions:113 - Parking Enforcement
+2019-12-04 18:31:08,749  INFO [main] SubMenuListStepDefinitions:113 - Campus Security
+2019-12-04 18:31:08,855  INFO [main] SubMenuListStepDefinitions:113 - Emergency Guide
+2019-12-04 18:31:09,095  INFO [main] SubMenuListStepDefinitions:113 - Campus Crime Report
+2019-12-04 18:31:09,095  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:31:09,095  INFO [main] Hooks:37 - Closing driver
+2019-12-04 18:31:10,428  INFO [main] Hooks:19 - I am setting up the test from the Hooks class!!!
+2019-12-04 18:31:14,917 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:31:14,918 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:31:14,919 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:31:14,919 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:31:14,921 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:31:14,921 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:31:14,922 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-12-04 18:31:14,922 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-12-04 18:31:26,968  INFO [main] SubMenuListStepDefinitions:119 - Mouse hover over on to the About button
+2019-12-04 18:31:27,698  INFO [main] SubMenuListStepDefinitions:132 - Expected sub menu list: ----> [Office of the President, Welcome Message, Board of Trustees, Accreditation, Brochures, Details, NAU History, About Houston, NAU Policies, Student Achievements]
+2019-12-04 18:31:27,804  INFO [main] SubMenuListStepDefinitions:136 - Office of the President
+2019-12-04 18:31:28,047  INFO [main] SubMenuListStepDefinitions:136 - Welcome Message
+2019-12-04 18:31:28,133  INFO [main] SubMenuListStepDefinitions:136 - Board of Trustees
+2019-12-04 18:31:28,241  INFO [main] SubMenuListStepDefinitions:136 - Accreditation
+2019-12-04 18:31:28,469  INFO [main] SubMenuListStepDefinitions:136 - Brochures
+2019-12-04 18:31:28,707  INFO [main] SubMenuListStepDefinitions:136 - Details
+2019-12-04 18:31:28,803  INFO [main] SubMenuListStepDefinitions:136 - NAU History
+2019-12-04 18:31:28,960  INFO [main] SubMenuListStepDefinitions:136 - About Houston
+2019-12-04 18:31:29,255  INFO [main] SubMenuListStepDefinitions:136 - NAU Policies
+2019-12-04 18:31:29,427  INFO [main] SubMenuListStepDefinitions:136 - Student Achievements
+2019-12-04 18:31:29,428  INFO [main] Hooks:27 - I am reporting the results
+2019-12-04 18:31:29,428  INFO [main] Hooks:37 - Closing driver
